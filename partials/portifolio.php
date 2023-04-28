@@ -31,7 +31,7 @@
                             <!-- cmt-box-view-overlay -->
                             <div class="cmt-box-view-overlay">
                                 <div class="portfolio-icon-box">
-                                    <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                                    <a href="projects.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div><!-- cmt-box-view-overlay end-->
                             <div class="featured-content">
@@ -39,7 +39,7 @@
                                     <p>Insulation</p>
                                 </div>
                                 <div class="featured-title">
-                                    <h5><a href="portfolio-single.html">Install insulation</a></h5>
+                                    <h5><a href="projects.php">Install insulation</a></h5>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox -->
@@ -54,7 +54,7 @@
                             <!-- cmt-box-view-overlay -->
                             <div class="cmt-box-view-overlay">
                                 <div class="portfolio-icon-box">
-                                    <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                                    <a href="projects.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div><!-- cmt-box-view-overlay end-->
                             <div class="featured-content">
@@ -62,7 +62,7 @@
                                     <p>Textures</p>
                                 </div>
                                 <div class="featured-title">
-                                    <h5><a href="portfolio-single.html">interior textures</a></h5>
+                                    <h5><a href="projects.php">interior textures</a></h5>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox -->
@@ -77,7 +77,7 @@
                             <!-- cmt-box-view-overlay -->
                             <div class="cmt-box-view-overlay">
                                 <div class="portfolio-icon-box">
-                                    <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                                    <a href="projects.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div><!-- cmt-box-view-overlay end-->
                             <div class="featured-content">
@@ -85,7 +85,7 @@
                                     <p>exterior</p>
                                 </div>
                                 <div class="featured-title">
-                                    <h5><a href="portfolio-single.html">install exterior</a></h5>
+                                    <h5><a href="projects.php">install exterior</a></h5>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox -->
@@ -100,7 +100,7 @@
                             <!-- cmt-box-view-overlay -->
                             <div class="cmt-box-view-overlay">
                                 <div class="portfolio-icon-box">
-                                    <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                                    <a href="projects.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div><!-- cmt-box-view-overlay end-->
                             <div class="featured-content">
@@ -108,7 +108,7 @@
                                     <p>exterior</p>
                                 </div>
                                 <div class="featured-title">
-                                    <h5><a href="portfolio-single.html">mechanical trim</a></h5>
+                                    <h5><a href="projects.php">mechanical trim</a></h5>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox -->
@@ -123,7 +123,7 @@
                             <!-- cmt-box-view-overlay -->
                             <div class="cmt-box-view-overlay">
                                 <div class="portfolio-icon-box">
-                                    <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                                    <a href="projects.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div><!-- cmt-box-view-overlay end-->
                             <div class="featured-content">
@@ -131,7 +131,7 @@
                                     <p>exterior</p>
                                 </div>
                                 <div class="featured-title">
-                                    <h5><a href="portfolio-single.html">landscaping</a></h5>
+                                    <h5><a href="projects.php">landscaping</a></h5>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox -->
@@ -146,7 +146,7 @@
                             <!-- cmt-box-view-overlay -->
                             <div class="cmt-box-view-overlay">
                                 <div class="portfolio-icon-box">
-                                    <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                                    <a href="projects.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div><!-- cmt-box-view-overlay end-->
                             <div class="featured-content">
@@ -154,7 +154,7 @@
                                     <p>exterior</p>
                                 </div>
                                 <div class="featured-title">
-                                    <h5><a href="portfolio-single.html">pour foundation</a></h5>
+                                    <h5><a href="projects.php">pour foundation</a></h5>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox -->
@@ -169,7 +169,7 @@
                             <!-- cmt-box-view-overlay -->
                             <div class="cmt-box-view-overlay">
                                 <div class="portfolio-icon-box">
-                                    <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                                    <a href="projects.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div><!-- cmt-box-view-overlay end-->
                             <div class="featured-content">
@@ -177,7 +177,7 @@
                                     <p>Install</p>
                                 </div>
                                 <div class="featured-title">
-                                    <h5><a href="portfolio-single.html">Install insulation</a></h5>
+                                    <h5><a href="projects.php">Install insulation</a></h5>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox -->
@@ -187,7 +187,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="mt-30 mb-40 res-991-mt-30 text-center">
-                            <p class="mb-0">Don’t hesitate, contact us for better help and services.&nbsp;<a href="#"><strong><u>View more Project</u></strong></a></p>
+                            <p class="mb-0">Don’t hesitate, contact us for better help and services.&nbsp;<a href="projects.php"><strong><u>View more Project</u></strong></a></p>
                         </div>
                     </div>
                 </div><!-- row end-->

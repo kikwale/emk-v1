@@ -460,5 +460,6 @@ include('partials/navigation.php');
     </div><!--site-main end-->
 <?php
 include('partials/footer.php');
+include('partials/theme.php');
 include('partials/libraries.php');
 ?>

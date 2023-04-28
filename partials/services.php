@@ -25,15 +25,15 @@
                             </div>
                             <div class="featured-content"><!--featured-content-->
                                 <div class="featured-title">
-                                    <h5><a href="apartment-design.html">Apartment Design</a></h5>
+                                    <h5><a href="services.php">Machine installation</a></h5>
                                 </div>
                                 <div class="separator">
                                     <div class="sep-line mt-10 mb-15"></div>
                                 </div>
                                 <div class="featured-desc"><!--featured-desc-->
-                                    <p>Get exterior design ideas for your modern house elevation with our 50 unique modern house facades.</p>
+                                    <p>We are experienced in Machine installation work in different types of machines globally.</p>
                                 </div>
-                                <a href="apartment-design.html" class="cmt-icon cmt-icon_element-border cmt-icon_element-color-white cmt-icon_element-size-xs cmt-icon_element-style-round">
+                                <a href="services.php" class="cmt-icon cmt-icon_element-border cmt-icon_element-color-white cmt-icon_element-size-xs cmt-icon_element-style-round">
                                     <i class="fa fa-angle-double-right"></i>
                                 </a>
                             </div>
@@ -47,15 +47,37 @@
                             </div>
                             <div class="featured-content"><!--featured-content-->
                                 <div class="featured-title">
-                                    <h5><a href="expert-mechanical.html">Expert Mechanical</a></h5>
+                                    <h5><a href="services.php">Machine foundation</a></h5>
                                 </div>
                                 <div class="separator">
                                     <div class="sep-line mt-10 mb-15"></div>
                                 </div>
                                 <div class="featured-desc"><!--featured-desc-->
-                                    <p>Our experts  mechanical engineers plan ideal buildings models in way too significant. </p>
+                                    <p>Our turnkey aproach , value engineering process and in house talent empower us to control every phase of the project from start to finish stage </p>
                                 </div>
-                                <a href="architectural-design.html" class="cmt-icon cmt-icon_element-border cmt-icon_element-color-white cmt-icon_element-size-xs cmt-icon_element-style-round">
+                                <a href="services.php" class="cmt-icon cmt-icon_element-border cmt-icon_element-color-white cmt-icon_element-size-xs cmt-icon_element-style-round">
+                                    <i class="fa fa-angle-double-right"></i>
+                                </a>
+                            </div>
+                        </div><!--featured-icon-box-->
+                        <!--featured-icon-box-->
+                        <div class="featured-icon-box style1 left-icon icon-align-top">
+                            <div class="featured-icon"><!--featured-icon-->
+                                <div class="cmt-icon cmt-icon_element-border cmt-icon_element-color-skincolor cmt-icon_element-size-md cmt-icon_element-style-square">
+                                    <i class="flaticon flaticon-construction-and-tools-2"></i>
+                                </div>
+                            </div>
+                            <div class="featured-content"><!--featured-content-->
+                                <div class="featured-title">
+                                    <h5><a href="services.php">Machine foundation</a></h5>
+                                </div>
+                                <div class="separator">
+                                    <div class="sep-line mt-10 mb-15"></div>
+                                </div>
+                                <div class="featured-desc"><!--featured-desc-->
+                                    <p>Our turnkey aproach , value engineering process and in house talent empower us to control every phase of the project from start to finish stage </p>
+                                </div>
+                                <a href="services.php" class="cmt-icon cmt-icon_element-border cmt-icon_element-color-white cmt-icon_element-size-xs cmt-icon_element-style-round">
                                     <i class="fa fa-angle-double-right"></i>
                                 </a>
                             </div>
@@ -76,7 +98,7 @@
                                     <p>Discount <span class="cmt-textcolor-skincolor">25%</span></p>
                                     <h5>Restructure Services</h5>
                                 </div>
-                                <a href="#" class="cmt-textcolor-skincolor">Click to Get Discount</a>
+                                <!-- <a href="#" class="cmt-textcolor-skincolor">Click to Get Discount</a> -->
                             </div>
                         </div>
                     </div>
@@ -90,15 +112,15 @@
                             </div>
                             <div class="featured-content"><!--featured-content-->
                                 <div class="featured-title">
-                                    <h5><a href="house-planning.html">House Planning</a></h5>
+                                    <h5><a href="services.php">Architectural</a></h5>
                                 </div>
                                 <div class="separator">
                                     <div class="sep-line mt-10 mb-15"></div>
                                 </div>
                                 <div class="featured-desc"><!--featured-desc-->
-                                    <p>We will work with you to make small or large changes so you get the house of your dreams</p>
+                                    <p>We offer architectural and engineering design for all types of building including, industrial shed, commercial and residential building</p>
                                 </div>
-                                <a href="house-planning-2.html" class="cmt-icon cmt-icon_element-border cmt-icon_element-color-white cmt-icon_element-size-xs cmt-icon_element-style-round">
+                                <a href="services.php" class="cmt-icon cmt-icon_element-border cmt-icon_element-color-white cmt-icon_element-size-xs cmt-icon_element-style-round">
                                     <i class="fa fa-angle-double-right"></i>
                                 </a>
                             </div>
@@ -112,15 +134,37 @@
                             </div>
                             <div class="featured-content"><!--featured-content-->
                                 <div class="featured-title">
-                                    <h5><a href="repair-welding.html">Repair Welding</a></h5>
+                                    <h5><a href="services.php">Construction</a></h5>
                                 </div>
                                 <div class="separator">
                                     <div class="sep-line mt-10 mb-15"></div>
                                 </div>
                                 <div class="featured-desc"><!--featured-desc-->
-                                    <p>Special repairs of building are undertaken to replace the existing parts of buildings. </p>
+                                    <p>EMK offers soulution across industrial , commercial , residential construction services. Generally we perfom as general conractors , desgn and build , specialist sub contractors </p>
                                 </div>
-                                <a href="repair-welding.html" class="cmt-icon cmt-icon_element-border cmt-icon_element-color-white cmt-icon_element-size-xs cmt-icon_element-style-round">
+                                <a href="services.php" class="cmt-icon cmt-icon_element-border cmt-icon_element-color-white cmt-icon_element-size-xs cmt-icon_element-style-round">
+                                    <i class="fa fa-angle-double-right"></i>
+                                </a>
+                            </div>
+                        </div><!--featured-icon-box-->
+                        <!--featured-icon-box-->
+                         <div class="featured-icon-box style1 left-icon icon-align-top">
+                            <div class="featured-icon"><!--featured-icon-->
+                                <div class="cmt-icon cmt-icon_element-border cmt-icon_element-color-skincolor cmt-icon_element-size-md cmt-icon_element-style-square">
+                                    <i class="flaticon flaticon-engineer-working"></i>
+                                </div>
+                            </div>
+                            <div class="featured-content"><!--featured-content-->
+                                <div class="featured-title">
+                                    <h5><a href="services.php">Construction</a></h5>
+                                </div>
+                                <div class="separator">
+                                    <div class="sep-line mt-10 mb-15"></div>
+                                </div>
+                                <div class="featured-desc"><!--featured-desc-->
+                                    <p>EMK offers soulution across industrial , commercial , residential construction services. Generally we perfom as general conractors , desgn and build , specialist sub contractors </p>
+                                </div>
+                                <a href="services.php" class="cmt-icon cmt-icon_element-border cmt-icon_element-color-white cmt-icon_element-size-xs cmt-icon_element-style-round">
                                     <i class="fa fa-angle-double-right"></i>
                                 </a>
                             </div>

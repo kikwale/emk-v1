@@ -9,14 +9,14 @@ include('partials/navigation.php');
                     <div class="col-md-12"> 
                         <div class="title-box">
                             <div class="page-title-heading">
-                                <h1 class="title">Portfolio</h1>
+                                <h1 class="title">Our Projects</h1>
                             </div><!-- /.page-title-captions -->
                             <div class="breadcrumb-wrapper">
                                 <span>
-                                    <a title="Homepage" href="index.html"><i class="ti ti-home"></i> Home</a>
+                                    <a title="Homepage" href="index.php"><i class="ti ti-home"></i> Home</a>
                                 </span>
                                 <span class="cmt-bread-sep"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
-                                <span><span>portfolio Style 1</span></span>
+                                <span><span>Our Projects</span></span>
                             </div>
                         </div>
                     </div><!-- /.col-md-12 -->  
@@ -42,7 +42,7 @@ include('partials/navigation.php');
                             <!-- cmt-box-view-overlay -->
                             <div class="cmt-box-view-overlay">
                                 <div class="portfolio-icon-box">
-                                    <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                                    <a href="portfolio-single.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div><!-- cmt-box-view-overlay end-->
                             <div class="featured-content">
@@ -50,7 +50,7 @@ include('partials/navigation.php');
                                     <p>Insulation</p>
                                 </div>
                                 <div class="featured-title">
-                                    <h5><a href="portfolio-single.html">Install insulation</a></h5>
+                                    <h5><a href="portfolio-single.php">Install insulation</a></h5>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox -->
@@ -65,7 +65,7 @@ include('partials/navigation.php');
                             <!-- cmt-box-view-overlay -->
                             <div class="cmt-box-view-overlay">
                                 <div class="portfolio-icon-box">
-                                    <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                                    <a href="portfolio-single.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div><!-- cmt-box-view-overlay end-->
                             <div class="featured-content">
@@ -73,7 +73,7 @@ include('partials/navigation.php');
                                     <p>Textures</p>
                                 </div>
                                 <div class="featured-title">
-                                    <h5><a href="portfolio-single.html">interior textures</a></h5>
+                                    <h5><a href="portfolio-single.php">interior textures</a></h5>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox -->
@@ -88,7 +88,7 @@ include('partials/navigation.php');
                             <!-- cmt-box-view-overlay -->
                             <div class="cmt-box-view-overlay">
                                 <div class="portfolio-icon-box">
-                                    <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                                    <a href="portfolio-single.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div><!-- cmt-box-view-overlay end-->
                             <div class="featured-content">
@@ -96,7 +96,7 @@ include('partials/navigation.php');
                                     <p>exterior</p>
                                 </div>
                                 <div class="featured-title">
-                                    <h5><a href="portfolio-single.html">install exterior</a></h5>
+                                    <h5><a href="portfolio-single.php">install exterior</a></h5>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox -->
@@ -111,7 +111,7 @@ include('partials/navigation.php');
                             <!-- cmt-box-view-overlay -->
                             <div class="cmt-box-view-overlay">
                                 <div class="portfolio-icon-box">
-                                    <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                                    <a href="portfolio-single.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div><!-- cmt-box-view-overlay end-->
                             <div class="featured-content">
@@ -119,7 +119,7 @@ include('partials/navigation.php');
                                     <p>exterior</p>
                                 </div>
                                 <div class="featured-title">
-                                    <h5><a href="portfolio-single.html">mechanical trim</a></h5>
+                                    <h5><a href="portfolio-single.php">mechanical trim</a></h5>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox -->
@@ -134,7 +134,7 @@ include('partials/navigation.php');
                             <!-- cmt-box-view-overlay -->
                             <div class="cmt-box-view-overlay">
                                 <div class="portfolio-icon-box">
-                                    <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                                    <a href="portfolio-single.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div><!-- cmt-box-view-overlay end-->
                             <div class="featured-content">
@@ -142,7 +142,7 @@ include('partials/navigation.php');
                                     <p>exterior</p>
                                 </div>
                                 <div class="featured-title">
-                                    <h5><a href="portfolio-single.html">landscaping</a></h5>
+                                    <h5><a href="portfolio-single.php">landscaping</a></h5>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox -->
@@ -157,7 +157,7 @@ include('partials/navigation.php');
                             <!-- cmt-box-view-overlay -->
                             <div class="cmt-box-view-overlay">
                                 <div class="portfolio-icon-box">
-                                    <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                                    <a href="portfolio-single.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div><!-- cmt-box-view-overlay end-->
                             <div class="featured-content">
@@ -165,7 +165,7 @@ include('partials/navigation.php');
                                     <p>exterior</p>
                                 </div>
                                 <div class="featured-title">
-                                    <h5><a href="portfolio-single.html">pour foundation</a></h5>
+                                    <h5><a href="portfolio-single.php">pour foundation</a></h5>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox -->
@@ -179,5 +179,6 @@ include('partials/navigation.php');
 
 <?php
 include('partials/footer.php');
+include('partials/theme.php');
 include('partials/libraries.php');
 ?>

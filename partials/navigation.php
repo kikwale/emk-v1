@@ -16,7 +16,7 @@
                                                     <ul class="top-contact">
                                                         <li><span class="tel-no"> Your Trusted 24 Hours Service Provider!</span></li>
                                                         <li><i class="fa fa-envelope-o"></i><a href="mailto:info@emk.co.tz">info@emk.co.tz</a></li>
-                                                        <li><i class="fa fa-phone"></i>+255 769 252546</li>
+                                                        <li><i class="fa fa-phone"></i>+255 768 061 488</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -73,7 +73,7 @@
                                             <!-- nav -->
                                             <nav id="menu" class="menu">
                                                 <ul class="dropdown">
-                                                   <li class="active"><a href="index.php">Home</a></li>
+                                                   <li><a href="index.php">Home</a></li>
                                                     <li><a href="aboutus.php">About Us</a></li>
                                                     <li><a href="services.php">Services</a></li>
                                                     <li><a href="projects.php">Projects</a></li>

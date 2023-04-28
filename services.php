@@ -13,7 +13,7 @@ include('partials/navigation.php');
                             </div><!-- /.page-title-captions -->
                             <div class="breadcrumb-wrapper">
                                 <span>
-                                    <a title="Homepage" href="index.html"><i class="ti ti-home"></i> Home</a>
+                                    <a title="Homepage" href="index.php"><i class="ti ti-home"></i> Home</a>
                                 </span>
                                 <span class="cmt-bread-sep"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
                                 <span><span>Services 2</span></span>
@@ -50,14 +50,14 @@ include('partials/navigation.php');
                                 </div>
                                 <div class="bottom-content-services">
                                     <div class="featured-title">
-                                        <h5><a href="apartment-design.html">Apartment Design</a></h5>
+                                        <h5><a href="apartment-design.php">Apartment Design</a></h5>
                                     </div>
                                     <div class="featured-desc">
                                         <p>By dealing with data, select to ols that help you utomate tim cons sses.</p>
                                     </div>
                                 </div>
                                 <div class="services-icon-box">
-                                    <a href="apartment-design.html"><i class="ti ti-plus"></i></a>
+                                    <a href="apartment-design.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox end-->
@@ -80,14 +80,14 @@ include('partials/navigation.php');
                                 </div>
                                 <div class="bottom-content-services">
                                     <div class="featured-title">
-                                        <h5><a href="house-planning.html">House Planning</a></h5>
+                                        <h5><a href="house-planning.php">House Planning</a></h5>
                                     </div>
                                     <div class="featured-desc">
                                         <p>By dealing with data, select to ols that help you utomate tim cons sses.</p>
                                     </div>
                                 </div>
                                 <div class="services-icon-box">
-                                    <a href="house-planning.html"><i class="ti ti-plus"></i></a>
+                                    <a href="house-planning.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox end-->
@@ -110,14 +110,14 @@ include('partials/navigation.php');
                                 </div>
                                 <div class="bottom-content-services">
                                     <div class="featured-title">
-                                        <h5><a href="repair-welding.html">Repair Welding</a></h5>
+                                        <h5><a href="repair-welding.php">Repair Welding</a></h5>
                                     </div>
                                     <div class="featured-desc">
                                         <p>By dealing with data, select to ols that help you utomate tim cons sses.</p>
                                     </div>
                                 </div>
                                 <div class="services-icon-box">
-                                    <a href="repair-welding.html"><i class="ti ti-plus"></i></a>
+                                    <a href="repair-welding.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox end-->
@@ -140,14 +140,14 @@ include('partials/navigation.php');
                                 </div>
                                 <div class="bottom-content-services">
                                     <div class="featured-title">
-                                        <h5><a href="expert-mechanical.html">Expert Mechanical</a></h5>
+                                        <h5><a href="expert-mechanical.php">Expert Mechanical</a></h5>
                                     </div>
                                     <div class="featured-desc">
                                         <p>By dealing with data, select to ols that help you utomate tim cons sses.</p>
                                     </div>
                                 </div>
                                 <div class="services-icon-box">
-                                    <a href="expert-mechanical.html"><i class="ti ti-plus"></i></a>
+                                    <a href="expert-mechanical.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox end-->
@@ -170,14 +170,14 @@ include('partials/navigation.php');
                                 </div>
                                 <div class="bottom-content-services">
                                     <div class="featured-title">
-                                        <h5><a href="management.html">Management</a></h5>
+                                        <h5><a href="management.php">Management</a></h5>
                                     </div>
                                     <div class="featured-desc">
                                         <p>By dealing with data, select to ols that help you utomate tim cons sses.</p>
                                     </div>
                                 </div>
                                 <div class="services-icon-box">
-                                    <a href="management.html"><i class="ti ti-plus"></i></a>
+                                    <a href="management.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox end-->
@@ -200,14 +200,14 @@ include('partials/navigation.php');
                                 </div>
                                 <div class="bottom-content-services">
                                     <div class="featured-title">
-                                        <h5><a href="general-contracting.html">General Contracting</a></h5>
+                                        <h5><a href="general-contracting.php">General Contracting</a></h5>
                                     </div>
                                     <div class="featured-desc">
                                         <p>By dealing with data, select to ols that help you utomate tim cons sses.</p>
                                     </div>
                                 </div>
                                 <div class="services-icon-box">
-                                    <a href="general-contracting-2.html"><i class="ti ti-plus"></i></a>
+                                    <a href="general-contracting-2.php"><i class="ti ti-plus"></i></a>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox end-->
@@ -220,5 +220,6 @@ include('partials/navigation.php');
     </div><!--site-main end-->
 <?php
 include('partials/footer.php');
+include('partials/theme.php');
 include('partials/libraries.php');
 ?>

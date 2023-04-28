@@ -69,7 +69,7 @@
                         data-paddingtop="[0,0,0,0]"
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]" > WELCOME TO CONSTRUCTION 
+                        data-paddingleft="[0,0,0,0]" > WELCOME TO <b>EMK</b> 
                         </div>
 
                         <!-- LAYER NR. 4 -->
@@ -117,7 +117,7 @@
                         data-paddingtop="[0,0,0,0]"
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]">Power <strong class="cmt-textcolor-skincolor">&amp; Technology</strong>
+                        data-paddingleft="[0,0,0,0]">Construction <strong class="cmt-textcolor-skincolor">&amp; Engineering</strong>
                         </div>
 
 
@@ -143,11 +143,11 @@
                         data-paddingtop="[0,0,0,0]"
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"> We offer the most complete house renovating services in the country,<br> from kitchen design to bathroom remodeling 
+                        data-paddingleft="[0,0,0,0]"> We offer the most complete engineering services in the country,<br> from factory to industrial constructions
                         </div>
 
                         <!-- LAYER NR. 7 -->
-                        <a class="tp-caption cmt-btn cmt-btn-bgcolor-skincolor cmt-btn-size-sm" href="#" target="_self" 
+                        <a class="tp-caption cmt-btn cmt-btn-bgcolor-skincolor cmt-btn-size-sm" href="projects.php" target="_self" 
 
                         id="slide-3-layer-7" 
                         data-x="['left','left','center','center']" data-hoffset="['50','20','-70','-68']" 
@@ -171,7 +171,7 @@
                         </a>
 
                         <!-- LAYER NR. 8 -->
-                        <a class="tp-caption cmt-btn cmt-btn-style-border cmt-btn-color-white cmt-btn-size-sm" href="#" target="_self" 
+                        <a class="tp-caption cmt-btn cmt-btn-style-border cmt-btn-color-white cmt-btn-size-sm" href="aboutus.php" target="_self" 
 
                         id="slide-3-layer-8" 
                         data-x="['left','left','center','center']" data-hoffset="['272','231','85','68']" 
@@ -265,7 +265,7 @@
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[0,0,0,0]"
                         data-paddingleft="[0,0,0,0]"
-                        > &amp; Industrial <strong class="cmt-textcolor-skincolor">Agency</strong> 
+                        > &amp; industrial <strong class="cmt-textcolor-skincolor">Agency</strong> 
                         </div>
 
                         <!-- layer-4 -->
@@ -289,7 +289,7 @@
                         data-paddingtop="[0,0,0,0]"
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]">We offer the most complete house renovating services in the country,<br> from kitchen design to bathroom remodeling 
+                        data-paddingleft="[0,0,0,0]">We offer the most complete engineering services in the country,<br> from factory to industrial constructions 
                         </div>
 
                         <!-- LAYER NR. 5 -->
@@ -315,7 +315,7 @@
                         </div>
 
                         <!-- LAYER NR. 6 -->
-                        <a class="tp-caption cmt-btn cmt-btn-bgcolor-skincolor cmt-btn-size-sm" href="#" target="_self" 
+                        <a class="tp-caption cmt-btn cmt-btn-bgcolor-skincolor cmt-btn-size-sm" href="projects.php" target="_self" 
 
                         id="slide-4-layer-6" 
                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 

@@ -13,7 +13,7 @@ include('partials/navigation.php');
                             </div><!-- /.page-title-captions -->
                             <div class="breadcrumb-wrapper">
                                 <span>
-                                    <a title="Homepage" href="index.html"><i class="ti ti-home"></i> Home</a>
+                                    <a title="Homepage" href="index.php"><i class="ti ti-home"></i> Home</a>
                                 </span>
                                 <span class="cmt-bread-sep"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
                                 <span><span>Faq</span></span>
@@ -161,5 +161,6 @@ include('partials/navigation.php');
     </div><!--site-main end-->
 <?php
 include('partials/footer.php');
+include('partials/theme.php');
 include('partials/libraries.php');
 ?>

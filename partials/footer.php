@@ -53,32 +53,37 @@
                     <div class="widget widget_contact clearfix">
                         <h3 class="widget-title">Get In Touch</h3>
                         <ul class="">
-                            <li><i class="fa fa-map-marker"></i>Themeforest, Envanto HQ<br>24 Fifth st., Los Angeles, USA</li>
-                            <li><i class="fa fa-envelope-o"></i>Email : <a href="#">name@yourmail.com</a></li>
-                            <li><i class="fa fa-phone"></i>Phone : +12 (3) 456 0000 <br>Support : +12 (3) 456 0000</li>
+                            <li><i class="fa fa-map-marker"></i>Mbezi Beach,Kinondoni,<br>Dar Es Salaam, Tanzania</li>
+                            <li><i class="fa fa-envelope-o"></i>Email : <a href="mailto:info@emk.co.tz">info@emk.co.tz</a></li>
+                            <li><i class="fa fa-phone"></i>Phone : +255 768 061 488 <br>Whatsapp : +966 57 238 1809</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                     <div class="widget widget_nav_menu clearfix">
-                       <h3 class="widget-title">Useful Links</h3>
-                        <ul id="menu-footer-services">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Offers</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Gallery</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Locations</a></li>
-                            <li><a href="#">Map</a></li>
-                            <li><a href="#">Review</a></li>
+                       <h3 class="widget-title">Quick Links</h3>
+                        <ul id="">
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="aboutus.php">About Us</a></li>
+                            <li><a href="services.php">Services</a></li>
+                            <li><a href="projects.php">Projects</a></li>
+                            <li><a href="team.php">Our Team</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                    <div class="widget widget_nav_menu clearfix">
+                       <h3 class="widget-title">Our Services</h3>
+                        <ul id="">
+                            <li><a href="services.php">Machine installation</a></li>
+                            <li><a href="services.php">Architectural</a></li>
+                            <li><a href="services.php">Engineering design</a></li>
+                            <li><a href="services.php">Construction</a></li>
+                            <li><a href="services.php">Fabrication</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                     <div class="widget widget_post clearfix">
                        <h3 class="widget-title">Recent Posts</h3>
                        <ul class="cmt-recent-post-list">
@@ -94,12 +99,12 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                     <div class="widget widget_text clearfix">
                        <h3 class="widget-title">Get Free Estimate</h3>
                        <div class="">
-                            <h3 class="widget_text_title cmt-textcolor-skincolor">123-456-78910</h3>
+                            <h3 class="widget_text_title cmt-textcolor-skincolor">+255 768 061 488</h3>
                             <p>Our online scheduling and payment system is safe.</p>
                             <a class="cmt-btn cmt-btn-size-md cmt-btn-shape-square cmt-btn-style-border cmt-btn-color-skincolor mt-15 mb-20" href="#">Request With Online Form</a>
                         </div>
@@ -112,7 +117,7 @@
         <div class="container">
             <div class="row copyright">
                 <div class="col-md-8 cmt-footer2-left">
-                    <span>Copyright © 2019&nbsp;<a href="#">Construction</a>. All rights reserved.</span>
+                    <span>Copyright © <?php echo date('Y');?>&nbsp; EMK . All rights reserved. Designed by <a href="https://digitalsurpass.co.tz/">digitalsurpass</a></span>
                 </div>
                 <div class="col-md-4 cmt-footer2-right">
                    <div class="social-icons">

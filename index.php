@@ -8,7 +8,7 @@ include('partials/services.php');
 include('partials/consultancy.php');
 include('partials/testimonial.php');
 include('partials/portifolio.php');
-include('partials/posts.php');
+// include('partials/posts.php');
 include('partials/footer.php');
 include('partials/theme.php');
 include('partials/libraries.php');

@@ -13,7 +13,7 @@ include('partials/navigation.php');
                             </div><!-- /.page-title-captions -->
                             <div class="breadcrumb-wrapper">
                                 <span>
-                                    <a title="Homepage" href="index.html"><i class="ti ti-home"></i> Home</a>
+                                    <a title="Homepage" href="index.php"><i class="ti ti-home"></i> Home</a>
                                 </span>
                                 <span class="cmt-bread-sep"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
                                 <span><span>Blog Classic</span></span>
@@ -44,7 +44,7 @@ include('partials/navigation.php');
                             <div class="cmt-blog-classic-content">
                                 <div class="cmt-post-entry-header">
                                     <header class="entry-header">
-                                        <h2 class="entry-title"><a href="single-blog.html">What are the benefits of LEED certification?</a></h2>
+                                        <h2 class="entry-title"><a href="single-blog.php">What are the benefits of LEED certification?</a></h2>
                                     </header>
                                 </div>
                                 <div class="post-meta">
@@ -94,7 +94,7 @@ include('partials/navigation.php');
                             <div class="cmt-blog-classic-content">
                                 <div class="cmt-post-entry-header">
                                     <header class="entry-header">
-                                        <h2 class="entry-title"><a href="single-blog.html">How Is 3D printing affecting the construction?</a></h2>
+                                        <h2 class="entry-title"><a href="single-blog.php">How Is 3D printing affecting the construction?</a></h2>
                                     </header>
                                 </div>
                                 <div class="post-meta">
@@ -144,7 +144,7 @@ include('partials/navigation.php');
                             <div class="cmt-blog-classic-content">
                                 <div class="cmt-post-entry-header">
                                     <header class="entry-header">
-                                        <h2 class="entry-title"><a href="single-blog.html">Improve workflow with Agile Construction</a></h2>
+                                        <h2 class="entry-title"><a href="single-blog.php">Improve workflow with Agile Construction</a></h2>
                                     </header>
                                 </div>
                                 <div class="post-meta">
@@ -219,22 +219,22 @@ include('partials/navigation.php');
                             <ul class="cmt-recent-post-list">
                                 <li>
                                     <a href="#"><img src="images/blog/post-03.jpg" alt="post-01"></a>
-                                    <h5><a href="single-blog.html">Best factory award of the year 2018</a></h5>
+                                    <h5><a href="single-blog.php">Best factory award of the year 2018</a></h5>
                                     <span class="post-date clearfix">August 04, 2018</span>
                                 </li>
                                 <li>
                                     <a href="#"><img src="images/blog/post-04.jpg" alt="post-01"></a>
-                                    <h5><a href="single-blog.html">Materials for the carbohy-drate ecnomy</a></h5>
+                                    <h5><a href="single-blog.php">Materials for the carbohy-drate ecnomy</a></h5>
                                     <span class="post-date clearfix">june 20, 2018</span>
                                 </li>
                                 <li>
                                     <a href="#"><img src="images/blog/post-05.jpg" alt="post-01"></a>
-                                    <h5><a href="single-blog.html">We have a great work team &amp; environment.</a></h5>
+                                    <h5><a href="single-blog.php">We have a great work team &amp; environment.</a></h5>
                                     <span class="post-date clearfix">july 23, 2019</span>
                                 </li>
                                 <li>
                                     <a href="#"><img src="images/blog/post-06.jpg" alt="post-01"></a>
-                                    <h5><a href="single-blog.html">Best factory award of the year 2018</a></h5>
+                                    <h5><a href="single-blog.php">Best factory award of the year 2018</a></h5>
                                     <span class="post-date clearfix">may 15, 2019</span>
                                 </li>
                             </ul>
@@ -267,5 +267,6 @@ include('partials/navigation.php');
     </div><!--site-main end-->
 <?php
 include('partials/footer.php');
+include('partials/theme.php');
 include('partials/libraries.php');
 ?>
