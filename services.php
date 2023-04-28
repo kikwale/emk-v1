@@ -16,7 +16,7 @@ include('partials/navigation.php');
                                     <a title="Homepage" href="index.php"><i class="ti ti-home"></i> Home</a>
                                 </span>
                                 <span class="cmt-bread-sep"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
-                                <span><span>Services 2</span></span>
+                                <span><span>Services</span></span>
                             </div>
                         </div>
                     </div><!-- /.col-md-12 -->  
@@ -50,10 +50,10 @@ include('partials/navigation.php');
                                 </div>
                                 <div class="bottom-content-services">
                                     <div class="featured-title">
-                                        <h5><a href="apartment-design.php">Apartment Design</a></h5>
+                                        <h5><a href="apartment-design.php">Machine installation</a></h5>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>By dealing with data, select to ols that help you utomate tim cons sses.</p>
+                                        <p>We are experienced in Machine installation work in different types of machines globally.</p>
                                     </div>
                                 </div>
                                 <div class="services-icon-box">
@@ -80,10 +80,10 @@ include('partials/navigation.php');
                                 </div>
                                 <div class="bottom-content-services">
                                     <div class="featured-title">
-                                        <h5><a href="house-planning.php">House Planning</a></h5>
+                                        <h5><a href="house-planning.php">Machine foundation</a></h5>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>By dealing with data, select to ols that help you utomate tim cons sses.</p>
+                                        <p>Our turnkey aproach , value engineering process and in house talent empower us to control every phase of the project from start to finish.</p>
                                     </div>
                                 </div>
                                 <div class="services-icon-box">
@@ -110,10 +110,10 @@ include('partials/navigation.php');
                                 </div>
                                 <div class="bottom-content-services">
                                     <div class="featured-title">
-                                        <h5><a href="repair-welding.php">Repair Welding</a></h5>
+                                        <h5><a href="repair-welding.php">Architectural</a></h5>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>By dealing with data, select to ols that help you utomate tim cons sses.</p>
+                                        <p>We offer architectural and engineering design for all types of building including, industrial shed, commercial and residential building</p>
                                     </div>
                                 </div>
                                 <div class="services-icon-box">
@@ -140,10 +140,11 @@ include('partials/navigation.php');
                                 </div>
                                 <div class="bottom-content-services">
                                     <div class="featured-title">
-                                        <h5><a href="expert-mechanical.php">Expert Mechanical</a></h5>
+                                        <h5><a href="expert-mechanical.php">EPC OR Turnkey</a></h5>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>By dealing with data, select to ols that help you utomate tim cons sses.</p>
+                                        <p>In this type of service EMK is responsible for all types of engineering services, procurement, construction and maintannce of all necessary parts in a certain project.
+</p>
                                     </div>
                                 </div>
                                 <div class="services-icon-box">
@@ -170,10 +171,10 @@ include('partials/navigation.php');
                                 </div>
                                 <div class="bottom-content-services">
                                     <div class="featured-title">
-                                        <h5><a href="management.php">Management</a></h5>
+                                        <h5><a href="management.php">Construction</a></h5>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>By dealing with data, select to ols that help you utomate tim cons sses.</p>
+                                        <p>EMK offers soulution across industrial , commercial , residential construction services. Generally we perfom as general conractors , desgn and build , specialist sub contractors</p>
                                     </div>
                                 </div>
                                 <div class="services-icon-box">
@@ -200,10 +201,10 @@ include('partials/navigation.php');
                                 </div>
                                 <div class="bottom-content-services">
                                     <div class="featured-title">
-                                        <h5><a href="general-contracting.php">General Contracting</a></h5>
+                                        <h5><a href="general-contracting.php">Fabrication</a></h5>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>By dealing with data, select to ols that help you utomate tim cons sses.</p>
+                                        <p>Our design team uses Autocad , to create 2Ds and 3Ds visualization your project which stamped and verified by our team professionals. </p>
                                     </div>
                                 </div>
                                 <div class="services-icon-box">

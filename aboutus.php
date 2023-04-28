@@ -266,7 +266,7 @@ include('partials/navigation.php');
                                                         <h5><a href="#">Visit Our Branches</a></h5>
                                                     </div>
                                                     <div class="featured-desc"><!--featured-desc-->
-                                                        <p>Themeforest, Envanto HQ 24 Fifth st., Los Angeles, USA</p>
+                                                        <p>Dar Es Salaam, Tanzania</p>
                                                     </div>
                                                 </div>
                                             </div><!--featured-icon-box-->
@@ -287,7 +287,7 @@ include('partials/navigation.php');
                                                         <h5><a href="#">Visit Our Branches</a></h5>
                                                     </div>
                                                     <div class="featured-desc"><!--featured-desc-->
-                                                        <p>Themeforest, Envanto HQ 24 Fifth st., Los Angeles, USA</p>
+                                                        <p>Dar Es Salaam, Tanzania</p>
                                                     </div>
                                                 </div>
                                             </div><!--featured-icon-box-->
