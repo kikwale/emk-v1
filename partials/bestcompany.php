@@ -12,7 +12,7 @@
                                 <!-- section title -->
                                 <div class="section-title clearfix">
                                     <div class="title-header">
-                                        <h2 class="title">Why we are best in construction company USA</h2>
+                                        <h2 class="title">Why we are the best in construction and engeneering</h2>
                                     </div>
                                 </div><!-- section title end -->
                                 <p>Constructor explains how you can enjoy high end flooring trends like textured wood and with new laminate flooring. As the general contractor, we first create the highe rust integrity with our clients. </p>

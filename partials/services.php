@@ -92,7 +92,7 @@
                             </div>
                             <div class="featured-content mt-25"><!--featured-content-->
                                 <div class="featured-title">
-                                    <h5>Provide Variety Construction Services</h5>
+                                    <h5>We Provide Variety of Construction Services</h5>
                                 </div>
                                 <div class="highlight-box cmt-textcolor-white cmt-bgcolor-darkgrey">
                                     <p>Discount <span class="cmt-textcolor-skincolor">25%</span></p>
