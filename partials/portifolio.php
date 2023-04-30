@@ -9,7 +9,7 @@
                                 <h5>We Make Connections</h5>
                                 <h2 class="title">Explore recent projects</h2>
                             </div>
-                            <div class="title-desc">The argument in favor of using filler text goes something like this: If you use real iller text goes something content in the design.</div>
+                            <div class="title-desc">We deliver self performed turn key project for all industries types as well as building sector with unmatched record or zero missed deadline.</div>
                         </div><!-- section title end -->
                     </div>
                 </div><!-- row end-->

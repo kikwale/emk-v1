@@ -60,28 +60,6 @@
                                 </a>
                             </div>
                         </div><!--featured-icon-box-->
-                        <!--featured-icon-box-->
-                        <div class="featured-icon-box style1 left-icon icon-align-top">
-                            <div class="featured-icon"><!--featured-icon-->
-                                <div class="cmt-icon cmt-icon_element-border cmt-icon_element-color-skincolor cmt-icon_element-size-md cmt-icon_element-style-square">
-                                    <i class="flaticon flaticon-construction-and-tools-2"></i>
-                                </div>
-                            </div>
-                            <div class="featured-content"><!--featured-content-->
-                                <div class="featured-title">
-                                    <h5><a href="services.php">Machine foundation</a></h5>
-                                </div>
-                                <div class="separator">
-                                    <div class="sep-line mt-10 mb-15"></div>
-                                </div>
-                                <div class="featured-desc"><!--featured-desc-->
-                                    <p>Our turnkey aproach , value engineering process and in house talent empower us to control every phase of the project from start to finish stage </p>
-                                </div>
-                                <a href="services.php" class="cmt-icon cmt-icon_element-border cmt-icon_element-color-white cmt-icon_element-size-xs cmt-icon_element-style-round">
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                            </div>
-                        </div><!--featured-icon-box-->
                     </div>
                     <div class="col-lg-4">
                         <div class="featured-icon-box text-center style2 box-shadow">
@@ -94,9 +72,10 @@
                                 <div class="featured-title">
                                     <h5>We Provide Variety of Construction Services</h5>
                                 </div>
-                                <div class="highlight-box cmt-textcolor-white cmt-bgcolor-darkgrey">
-                                    <p>Discount <span class="cmt-textcolor-skincolor">25%</span></p>
-                                    <h5>Restructure Services</h5>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <a class="cmt-btn cmt-btn-size-md cmt-btn-shape-square cmt-btn-bgcolor-skincolor mt-35" href="services.php">More Services</a>
+                                    </div>
                                 </div>
                                 <!-- <a href="#" class="cmt-textcolor-skincolor">Click to Get Discount</a> -->
                             </div>
@@ -127,28 +106,6 @@
                         </div><!--featured-icon-box-->
                         <!--featured-icon-box-->
                         <div class="featured-icon-box style1 left-icon icon-align-top">
-                            <div class="featured-icon"><!--featured-icon-->
-                                <div class="cmt-icon cmt-icon_element-border cmt-icon_element-color-skincolor cmt-icon_element-size-md cmt-icon_element-style-square">
-                                    <i class="flaticon flaticon-engineer-working"></i>
-                                </div>
-                            </div>
-                            <div class="featured-content"><!--featured-content-->
-                                <div class="featured-title">
-                                    <h5><a href="services.php">Construction</a></h5>
-                                </div>
-                                <div class="separator">
-                                    <div class="sep-line mt-10 mb-15"></div>
-                                </div>
-                                <div class="featured-desc"><!--featured-desc-->
-                                    <p>EMK offers soulution across industrial , commercial , residential construction services. Generally we perfom as general conractors , desgn and build , specialist sub contractors </p>
-                                </div>
-                                <a href="services.php" class="cmt-icon cmt-icon_element-border cmt-icon_element-color-white cmt-icon_element-size-xs cmt-icon_element-style-round">
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                            </div>
-                        </div><!--featured-icon-box-->
-                        <!--featured-icon-box-->
-                         <div class="featured-icon-box style1 left-icon icon-align-top">
                             <div class="featured-icon"><!--featured-icon-->
                                 <div class="cmt-icon cmt-icon_element-border cmt-icon_element-color-skincolor cmt-icon_element-size-md cmt-icon_element-style-square">
                                     <i class="flaticon flaticon-engineer-working"></i>
