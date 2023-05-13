@@ -12,23 +12,22 @@
                                 <!-- section title -->
                                 <div class="section-title clearfix">
                                     <div class="title-header">
-                                        <h2 class="title">Why we are the best in construction and engeneering</h2>
+                                        <h2 class="title">Why we are the best in Mashine Installation and Construction</h2>
                                     </div>
                                 </div><!-- section title end -->
-                                <p>Constructor explains how you can enjoy high end flooring trends like textured wood and with new laminate flooring. As the general contractor, we first create the highe rust integrity with our clients. </p>
                                 <div class="row no-gutters mb-20 mt-20">
                                     <div class="col-md-6 col-lg-6 col-sm-6">
                                         <ul class="cmt-list cmt-list-style-icon">
-                                            <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">The Easiest Way To Get What Need </span></li>
-                                            <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">Need It Fast? We Can Help.</span></li>
-                                            <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">We work to reduce air emissions</span></li>
+                                            <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">The Easiest Way To Deliver What You Need </span></li>
+                                            <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">Single Source Solution Expert</span></li>
+                                            <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">Best in Control Project Cost</span></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-6 col-lg-6 col-sm-6">
                                         <ul class="cmt-list cmt-list-style-icon">
-                                            <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">industriel has a brilliant</span></li>
-                                            <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">Capitalise on low hanging fruit to identify</span></li>
-                                            <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">You get speed, flexibility and better control</span></li>
+                                            <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">Time Control</span></li>
+                                            <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">Costomer Relationship Management</span></li>
+                                            <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">Flexibility and better Services</span></li>
                                         </ul>
                                     </div>
                                 </div>

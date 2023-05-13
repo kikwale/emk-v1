@@ -117,7 +117,7 @@
                         data-paddingtop="[0,0,0,0]"
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]">Construction <strong class="cmt-textcolor-skincolor">&amp; Engineering</strong>
+                        data-paddingleft="[0,0,0,0]">Mashine Installation <strong class="cmt-textcolor-skincolor">&amp; Construction</strong>
                         </div>
 
 
@@ -143,7 +143,7 @@
                         data-paddingtop="[0,0,0,0]"
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"> We offer the most complete engineering services in the country,<br> from factory to industrial constructions
+                        data-paddingleft="[0,0,0,0]"> We offer complete Mashine Installation Services and construction<br> Worldwide
                         </div>
 
                         <!-- LAYER NR. 7 -->
@@ -289,7 +289,7 @@
                         data-paddingtop="[0,0,0,0]"
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]">We offer the most complete engineering services in the country,<br> from factory to industrial constructions 
+                        data-paddingleft="[0,0,0,0]">We deliver self performed turn key project for all types of industries as well as <br> building sector with unmatched record or zero missed deadline.
                         </div>
 
                         <!-- LAYER NR. 5 -->

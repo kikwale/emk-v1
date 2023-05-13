@@ -14,14 +14,27 @@
                             <div class="section-title clearfix">
                                 <div class="title-header">
                                     <h5>ABOUT US</h5>
-                                    <h2 class="title">We building everything that you needed</h2>
+                                    <h2 class="title">We Install any kind of Mashine that you Know</h2>
                                 </div>
                             </div><!-- section title end -->
                             <p>We offer service from concept development through architectural and engineering design , EPC or turnkey , procurement , construction , machine installation , consultation and supervisition, operation and maintainance in different types of industrial sector and Building sector as well</p>
                             <p>Apart from experienced in working in industrial sector global, we also offer a wide variety of services in building sector </p>
-                            <p><b>EMK </b>delivers self performed turn key project for all industries types as well as building sector with unmatched record or zero missed deadline. </p>
+                            <!-- <p><b>EMK </b>delivers self performed turn key project for all industries types as well as building sector with unmatched record or zero missed deadline. </p> -->
                             <!-- row-->
                             <div class="row no-gutters pt-15">
+                            <div class="col-md-6 col-sm-6">
+                                    <!--featured-icon-box-->
+                                    <div class="featured-icon-box iconalign-before-heading">
+                                        <div class="featured-content">
+                                            <div class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-md"> 
+                                                <i class="flaticon flaticon-wrench"></i>
+                                            </div>
+                                            <div class="featured-title">
+                                                <h5>Machine Installation</h5>
+                                            </div>
+                                        </div>
+                                    </div><!-- featured-icon-box end-->
+                                </div>
                                 <div class="col-md-6 col-sm-6">
                                     <!--featured-icon-box-->
                                     <div class="featured-icon-box iconalign-before-heading">
@@ -53,10 +66,10 @@
                                     <div class="featured-icon-box iconalign-before-heading">
                                         <div class="featured-content">
                                             <div class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-md"> 
-                                                <i class="flaticon flaticon-barrier"></i>
+                                                <i class="flaticon flaticon-model"></i>
                                             </div>
                                             <div class="featured-title">
-                                                <h5>consultation</h5>
+                                                <h5>Architectural Design</h5>
                                             </div>
                                         </div>
                                     </div><!-- featured-icon-box end-->
@@ -66,10 +79,10 @@
                                     <div class="featured-icon-box iconalign-before-heading">
                                         <div class="featured-content">
                                             <div class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-md"> 
-                                                <i class="flaticon flaticon-wrench"></i>
+                                                <i class="flaticon flaticon-barrier"></i>
                                             </div>
                                             <div class="featured-title">
-                                                <h5>Machine Installation</h5>
+                                                <h5>consultation</h5>
                                             </div>
                                         </div>
                                     </div><!-- featured-icon-box end-->
