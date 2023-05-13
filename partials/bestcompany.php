@@ -21,6 +21,7 @@
                                             <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">The Easiest Way To Deliver What You Need </span></li>
                                             <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">Single Source Solution Expert</span></li>
                                             <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">Best in Control Project Cost</span></li>
+                                            <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">Link between Mashine Supplier and Client</span></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-6 col-lg-6 col-sm-6">
@@ -28,6 +29,7 @@
                                             <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">Time Control</span></li>
                                             <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">Costomer Relationship Management</span></li>
                                             <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">Flexibility and better Services</span></li>
+                                            <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">Self Performer of Each Phase of the project</span></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -45,13 +47,13 @@
                                                     <h4 class="cmt-fid-inner">
                                                         <span   data-appear-animation = "animateDigits"
                                                         data-from             = "0"
-                                                        data-to               = "4390"
-                                                        data-interval         = "20"
+                                                        data-to               = "50"
+                                                        data-interval         = "1"
                                                         data-before           = ""
                                                         data-before-style     = "sup"
                                                         data-after            = ""
                                                         data-after-style      = "sub"
-                                                    >4390</span>
+                                                    >50</span>
                                                     </h4>
                                                 </div>
                                             </div>
@@ -69,13 +71,13 @@
                                                     <h4 class="cmt-fid-inner">
                                                         <span   data-appear-animation = "animateDigits"
                                                         data-from             = "0"
-                                                        data-to               = "2390"
-                                                        data-interval         = "20"
+                                                        data-to               = "5"
+                                                        data-interval         = "1"
                                                         data-before           = ""
                                                         data-before-style     = "sup"
                                                         data-after            = ""
                                                         data-after-style      = "sub"
-                                                    >2390</span>
+                                                    >5</span>
                                                     </h4>
                                                 </div>
                                             </div>
@@ -93,13 +95,13 @@
                                                     <h4 class="cmt-fid-inner">
                                                         <span   data-appear-animation = "animateDigits"
                                                         data-from             = "0"
-                                                        data-to               = "3390"
-                                                        data-interval         = "20"
+                                                        data-to               = "2"
+                                                        data-interval         = "1"
                                                         data-before           = ""
                                                         data-before-style     = "sup"
                                                         data-after            = ""
                                                         data-after-style      = "sub"
-                                                    >3390</span>
+                                                    >2</span>
                                                     </h4>
                                                 </div>
                                             </div>
