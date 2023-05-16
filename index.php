@@ -1,4 +1,5 @@
 <?php 
+$title = "EMK | Home";
 include('partials/header.php'); 
 include('partials/navigation.php'); 
 include('partials/slider.php');
