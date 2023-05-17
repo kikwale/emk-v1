@@ -28,7 +28,7 @@ include('partials/navigation.php');
         <section class="cmt-row our-team-page-section clearfix">
             <div class="container">
                 <div class="row">
-                    <?php foreach($Team as $teammember){ ?>
+                    <?php foreach($team as $teammember){ ?>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <!-- featured-imagebox -->
                         <div class="featured-imagebox featured-imagebox-team style1 mb-30">

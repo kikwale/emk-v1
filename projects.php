@@ -2,6 +2,7 @@
 include('partials/header.php');
 include('partials/navigation.php');
 ?>
+
         <!-- page-title -->
         <div class="cmt-page-title-row">
             <div class="container">
@@ -23,7 +24,60 @@ include('partials/navigation.php');
                 </div><!-- /.row -->  
             </div><!-- /.container -->
         </div><!-- page-title end-->
-
+        <!--element-row-->
+        <section class="element-row element-style clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <!-- section title -->
+                        <div class="section-title clearfix">
+                            <div class="title-header">
+                                <h2 class="title">Project Categories</h2>
+                            </div>
+                        </div><!-- section title end -->
+                        <div class="res-991-pb-50">
+                            <div class="cmt-tabs cmt-tab-style-horizontal" data-effect="fadeIn">
+                                <ul class="tabs mb-15 clearfix">
+                                    <li class="tab active"><a href="#"><i class="flaticon flaticon-legal"></i>Industrial</a></li>
+                                    <li class="tab"><a href="#"><i class="flaticon flaticon-legal"></i>Building</a></li>
+                                </ul>
+                                <div class="content-tab">
+                                    <!-- content-inner -->
+                                    <div class="content-inner active">
+                                        <div class="row">
+                                        <ul class="tabs mb-15 clearfix">
+                                            <li class="tab"><a href="#"><i class="flaticon flaticon-legal"></i>Industrial</a></li>
+                                            <li class="tab"><a href="#"><i class="flaticon flaticon-legal"></i>Building</a></li>
+                                        </ul>
+                                        </div>
+                                    </div><!-- content-inner end-->
+                                    <!-- content-inner -->
+                                    <div class="content-inner">
+                                        <div class="row">
+                                        <ul class="tabs mb-15 clearfix">
+                                            <li class="tab"><a href="#"><i class="flaticon flaticon-legal"></i>Industrial</a></li>
+                                            <li class="tab"><a href="#"><i class="flaticon flaticon-legal"></i>Building</a></li>
+                                        </ul>
+                                        </div>
+                                    </div><!-- content-inner end-->
+                                    <!-- content-inner -->
+                                    <div class="content-inner">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img class="img-fluid" src="images/portfolio/16.jpg" alt="image">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <p class="mb-0 res-991-pt-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip adipiscing elit.</p>
+                                            </div>
+                                        </div>
+                                    </div><!-- content-inner end-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- row end -->
+            </div>
+        </section>
 
     <!--site-main start-->
     <div class="site-main">

@@ -2,31 +2,31 @@
 $services = array(
     "machine-installation" => array(
         "title" => "Machine Installation",
-        "desc" => "Machine Installation Bla Bla Bla Bla",
+        "desc" => "We are experienced in Machine installation work in different types of machines globally.",
         "details" => "Machine Installation Bla Bla Bla Bla",
         "image" => "01.jpg"
     ),
     "machine-foundation" => array(
         "title" => "Machine Foundation",
-        "desc" => "Machine Installation Bla Bla Bla Bla",
+        "desc" => "Our turnkey aproach , value engineering process and in house talent empower us to control every phase of the project from start to finish stage",
         "details" => "Machine Installation Bla Bla Bla Bla",
         "image" => "02.jpg"
     ),
     "construction" => array(
         "title" => "Construction",
-        "desc" => "Machine Installation Bla Bla Bla Bla",
+        "desc" => "EMK offers soulution across industrial , commercial , residential construction services. Generally we perfom as general conractors , desgn and build , specialist sub contractors",
         "details" => "Machine Installation Bla Bla Bla Bla",
         "image" => "03.jpg"
     ),
-    "others" => array(
-        "title" => "Others",
-        "desc" => "Others Installation Bla Bla Bla Bla",
+    "Architectural" => array(
+        "title" => "Architectural",
+        "desc" => "We offer architectural and engineering design for all types of building including, industrial shed, commercial and residential building",
         "details" => "Others Installation Bla Bla Bla Bla",
         "image" => "04.jpg"
     )
 );
 
-$Team = array(
+$team = array(
     array(
         "Name" => "Filbert Msuya",
         "title" => "Fulll Stack Web Developer",
@@ -48,4 +48,9 @@ $Team = array(
         "image" => "team-img01old.jpg"
     )
 );
+
+$categories = array(
+    array(
+        "name" => "",)
+)
 ?>

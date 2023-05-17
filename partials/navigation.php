@@ -76,20 +76,21 @@
                                                    <li><a href="index.php">Home</a></li>
                                                     <li><a href="aboutus.php">About Us</a></li>
                                                     <li><a href="services.php">Services</a></li>
+                                                    <!-- <li><a href="projects.php">Projects</a></li> -->
                                                     <li><a href="#">Projects</a>
                                                         <ul>
                                                         <li><a href="#">Industrial</a>
                                                         <ul>
-                                                            <li><a href="apartment-design.html">Dry Motor</a></li>
-                                                            <li><a href="house-planning.html">Crushing</a></li>
+                                                            <li><a href="#">Dry Motor</a></li>
+                                                            <li><a href="#">Crushing</a></li>
                                                         </ul>
                                                         </li>
                                                         <li><a href="#">Building</a>
                                                         <ul>
-                                                            <li><a href="apartment-design.html">Industrial</a></li>
-                                                            <li><a href="house-planning.html">Commercial</a></li>
+                                                            <li><a href="#">Industrial</a></li>
+                                                            <li><a href="#">Commercial</a></li>
                                                         </ul>
-                                                    </li>
+                                                        </li>
                                                         </ul>
                                                     </li>
                                                     <li><a href="team.php">Our Team</a></li>
