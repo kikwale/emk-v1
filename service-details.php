@@ -8,26 +8,34 @@ include('partials/navigation.php');
         <div class="cmt-page-title-row">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12"> 
+
+                <?php 
+                $sql = "SELECT * FROM service where id='".$_GET['service_id']."'";
+                $result = mysqli_query($conn, $sql);
+                if (mysqli_num_rows($result) > 0) {
+                    while($row = mysqli_fetch_assoc($result)) {
+                        echo '
+                        <div class="col-md-12"> 
                         <div class="title-box">
                             <div class="page-title-heading">
-                                <?php 
-                                if (isset($_GET["service"])){
-                                    $service = $_GET["service"];
-                                    $serviceItems = $services[$service];
-                                }
-                                ?>
-                                <h1 class="title"><?php echo $serviceItems["title"];?></h1>
+                               
+                                <h1 class="title">'.$row["name"].'</h1>
                             </div><!-- /.page-title-captions -->
                             <div class="breadcrumb-wrapper">
                                 <span>
                                     <a title="Homepage" href="index.php"><i class="ti ti-home"></i> Home</a>
                                 </span>
                                 <span class="cmt-bread-sep"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
-                                <span><span><?php echo $serviceItems["title"];?></span></span>
+                                <span><span>'.$row["name"].'</span></span>
                             </div>
                         </div>
-                    </div><!-- /.col-md-12 -->  
+                    </div><!-- /.col-md-12 --> 
+                        ';
+                        }
+                }
+                ?>
+                    
+
                 </div><!-- /.row -->  
             </div><!-- /.container -->
         </div><!-- page-title end-->
@@ -39,22 +47,35 @@ include('partials/navigation.php');
             <div class="container">
                 <!-- row -->
                 <div class="row">
-                    <div class="col-lg-8 content-area order-1 order-lg-2">
+
+                <?php 
+                $sql = "SELECT * FROM service where id='".$_GET['service_id']."'";
+                $result = mysqli_query($conn, $sql);
+                if (mysqli_num_rows($result) > 0) {
+                    while($row = mysqli_fetch_assoc($result)) {
+                        echo '
+                        <div class="col-lg-8 content-area order-1 order-lg-2">
                         <!-- cmt-service-single-content-are -->
                         <div class="cmt-service-single-content-area">
                             <div class="post-featured-wrapper mb-40">
                                 <div class="post-featured">
-                                    <img class="img-fluid" src="images/services/<?php echo $serviceItems["image"];?>" alt="">
+                                    <img class="img-fluid" src="images/services/'.$row['image'].'" alt="">
                                 </div>
                             </div>
                             <div class="cmt-service-description">
-                                <h4 class="mb-10"><?php echo $serviceItems["title"];?></h4>
+                                <h4 class="mb-10">'. $row["name"].'</h4>
                                 <div class="mb-30">
-                                    <p><?php echo $serviceItems["details"];?></p>
+                                    <p>'. $row["details"].'</p>
                                 </div>
                             </div>
                         </div><!-- cmt-service-single-content-are end -->
                     </div>
+                        ';
+                        }
+                }
+                ?>
+
+                  
                     <div class="col-lg-4 widget-area sidebar-left order-2 order-lg-1">
                         <aside class="widget widget-search">
                             <h3 class="widget-title">Search</h3>
@@ -69,14 +90,27 @@ include('partials/navigation.php');
                         <aside class="widget widget-nav-menu">
                             <h3 class="widget-title">Other Services</h3>
                             <ul class="widget-menu">
-                                <?php foreach ($services as $serviceItems => $serviceItem){ ?>
-                                <li>
-                                    <h5>
-                                        <a href="service-details.php?service=<?php echo $serviceItems; ?>"><?php echo $serviceItem['title']; ?></a>
-                                    </h5>
-                                    <p><?php echo $serviceItem['desc']; ?></p>
-                                </li>
-                                <?php }; ?>
+
+                            <?php 
+                $sql = "SELECT * FROM service where id!='".$_GET['service_id']."'";
+                $result = mysqli_query($conn, $sql);
+                if (mysqli_num_rows($result) > 0) {
+                    while($row = mysqli_fetch_assoc($result)) {
+                        echo '
+                        <li>
+                        <h5>
+                            <a href="service-details.php?service_id='.$row['id'].'">'.$row['name'].'</a>
+                        </h5>
+                        <p>'. $row['description'].'</p>
+                       </li>
+                        ';
+                        }
+                }
+                ?>
+
+                                
+                             
+                               
                             </ul>
                         </aside>
                     </div>

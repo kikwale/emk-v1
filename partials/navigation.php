@@ -1,3 +1,8 @@
+     <?php 
+        include('db_connection.php');
+    ?>
+        
+        
         <!--header start-->
         <header id="masthead" class="header cmt-header-style-01">
             <!-- cmt-header-wrap -->
@@ -79,18 +84,30 @@
                                                     <!-- <li><a href="projects.php">Projects</a></li> -->
                                                     <li><a href="#">Projects</a>
                                                         <ul>
-                                                        <li><a href="#">Industrial</a>
-                                                        <ul>
-                                                            <li><a href="#">Dry Motor</a></li>
-                                                            <li><a href="#">Crushing</a></li>
-                                                        </ul>
-                                                        </li>
-                                                        <li><a href="#">Building</a>
-                                                        <ul>
-                                                            <li><a href="#">Industrial</a></li>
-                                                            <li><a href="#">Commercial</a></li>
-                                                        </ul>
-                                                        </li>
+                                                        <?php 
+                                                            $sql = "SELECT * FROM main_project_title";
+                                                            $result = mysqli_query($conn, $sql);
+                                                            if (mysqli_num_rows($result) > 0) {
+                                                                while($row = mysqli_fetch_assoc($result)) {
+                                                                echo '
+                                                                <li><a href="#">'.$row['name'].'</a>
+                                                                <ul>
+                                                                ';
+                                                            $sql1 = "SELECT * FROM sub_project_title WHERE main_project_title_id='".$row['id']."'";
+                                                            $result1 = mysqli_query($conn, $sql1);
+                                                            if(mysqli_num_rows($result1) > 0){
+                                                                while($row1 = mysqli_fetch_assoc($result1)) {
+                                                                  echo '<li><a href="projects.php?id='.$row1['id'].'">'.$row1['name'].'</a></li>';
+                                                                }
+                                                            }
+
+                                                            echo '
+                                                            </ul>
+                                                            </li>';
+                                                                }
+                                                            }
+                                                            ?>
+                                                       
                                                         </ul>
                                                     </li>
                                                     <li><a href="team.php">Our Team</a></li>
