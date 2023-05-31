@@ -1,5 +1,4 @@
-
-<?php 
+<?php
 include('db_connection.php');
 ?>
 <!DOCTYPE html>
@@ -19,7 +18,7 @@ include('db_connection.php');
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -31,12 +30,12 @@ include('db_connection.php');
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/jq-3.3.1/jszip-2.5.0/dt-1.10.20/b-1.6.1/b-colvis-1.6.1/b-html5-1.6.1/b-print-1.6.1/datatables.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css"/> 
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.3.2/css/buttons.dataTables.min.css"/> 
-    
-      <!-- Summernote CSS - CDN Link -->
-      <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/jq-3.3.1/jszip-2.5.0/dt-1.10.20/b-1.6.1/b-colvis-1.6.1/b-html5-1.6.1/b-print-1.6.1/datatables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.3.2/css/buttons.dataTables.min.css" />
+
+    <!-- Summernote CSS - CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
     <!-- //Summernote CSS - CDN Link -->
 
@@ -65,7 +64,7 @@ include('db_connection.php');
             <!-- Navbar Start -->
 
             <?php include('nav/header.php'); ?>
-          
+
             <!-- Navbar End -->
 
 
@@ -114,46 +113,78 @@ include('db_connection.php');
 
 
             <div class="container-fluid pt-4 px-4">
-            <div class="row g-4">
+                <div class="row g-4">
 
-                <?php
-                if (isset($_GET['id'])) {
-                    if ($_GET['id'] == 'inserted') {
-                        echo '
-                        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                    <?php
+                    if (isset($_GET['id'])) {
+                        if ($_GET['id'] == 'inserted') {
+                            echo '
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
                         Data Inserted Successfuly.....
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                         ';
-                    }
-                    if ($_GET['id'] == 'not inserted') {
-                        echo '
+                        }
+                        if ($_GET['id'] == 'not inserted') {
+                            echo '
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
                         Data Not Inserted Try again......
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                         ';
-                    }
-                    if ($_GET['id'] == 'empty name') {
-                        echo '
+                        }
+                        if ($_GET['id'] == 'updated') {
+                            echo '
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        Data Updated Successfuly.....
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                        ';
+                        }
+                        if ($_GET['id'] == 'not updated') {
+                            echo '
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        Data Not Updated Try again......
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                        ';
+                        }
+                        if ($_GET['id'] == 'deleted') {
+                            echo '
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        Data Deleted Successfuly.....
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                        ';
+                        }
+                        if ($_GET['id'] == 'not deleted') {
+                            echo '
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        Data Not Deleted Try again......
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                        ';
+                        }
+                        if ($_GET['id'] == 'empty name') {
+                            echo '
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
                         Name field is empty...
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                         ';
-                    }
-                    if ($_GET['id'] == 'not image type') {
-                        echo '
+                        }
+                        if ($_GET['id'] == 'not image type') {
+                            echo '
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
                          Invalid file type
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                         ';
+                        }
                     }
-                }
-                ?>
-               
-            </div>
+                    ?>
+
+                </div>
             </div>
 
 
@@ -177,27 +208,95 @@ include('db_connection.php');
                             </thead>
                             <tbody>
 
-                                <?php 
+                                <?php
                                 $sql = "SELECT * FROM service";
                                 $result = mysqli_query($conn, $sql);
                                 if (mysqli_num_rows($result) > 0) {
-                                    while($row = mysqli_fetch_assoc($result)) {
-                                       echo '
+                                    while ($row = mysqli_fetch_assoc($result)) {
+                                        echo '
                                        <tr>                             
                                        <td><input class="form-check-input" type="checkbox"></td>
-                                       <td>'.$row['name'].'</td>
-                                       <td>'.$row['description'].'</td>
-                                       <td>'.$row['details'].'</td>
+                                       <td>' . $row['name'] . '</td>
+                                       <td>' . $row['description'] . '</td>
+                                       <td>' . $row['details'] . '</td>
                                        <td>
-                                       <a class="btn btn-sm btn-warning" href="edit_service.php?id='.$row['id'].'"><i class="fa fa-edit"></i></a>
-                                       <a class="btn btn-sm btn-danger" href="delete_service.php?id='.$row['id'].'"><i class="fa fa-trash"></i></a>
+                                       <a class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#edit_service' . $row['id'] . '" href="#"><i class="fa fa-edit"></i></a>
+                                       <a class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#delete_service' . $row['id'] . '" href="#"><i class="fa fa-trash"></i></a>
                                        </td>
+
+                                       <!-- Modal -->
+                                       <div class="modal fade" id="edit_service' . $row['id'] . '" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                       <div class="modal-dialog modal-dialog-centered">
+                                           <div class="modal-content">
+                                           <div class="modal-header">
+                                               <h5 class="modal-title" id="staticBackdropLabel">Edit Service</h5>
+                                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                           </div>
+                                           <form action="backend/service.php" method="post" enctype="multipart/form-data">
+                                               <div class="modal-body">
+                                               
+                                                       <div class="mb-3">
+                                                       <label for="exampleFormControlInput1" class="form-label">Service Name</label>
+                                                       <input required value="' . $row['name'] . '" type="text" name="name" class="form-control" id="name" >
+                                                       <input required value="' . $row['id'] . '" type="hidden" name="id" class="form-control" id="id" >
+                                                       </div>
+                                                       <div class="mb-3">
+                                                       <label for="exampleFormControlTextarea1" class="form-label">Title Description</label>
+                                                       <textarea name="description" value="' . $row['description'] . '" class="form-control" id="summernote" rows="3">' . $row['description'] . '</textarea>
+                                                       </div>
+                                                       <div class="mb-3">
+                                                       <label for="exampleFormControlTextarea1" class="form-label">Full Details</label>
+                                                       <textarea class="form-control" id="summernote1" value="' . $row['details'] . '" name="details" rows="3">' . $row['details'] . '</textarea>
+                                                       </div>
+                                                       <div class="mb-3">
+                                                       <label for="exampleFormControlTextarea1" class="form-label">Image</label>
+                                                       <input type="file" name="image" id="image" class="form-control" id="exampleFormControlTextarea1" >
+                                                       </div>
+                                               
+                                               </div>
+                                               <div class="modal-footer">
+                                                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                   <button type="submit" name="edit_service_btn" class="btn btn-primary">Save</button>
+                                               </div>
+                                           </form>
+                                           </div>
+                                       </div>
+                                       </div>
+                                       <!-- Modal End -->
+
+                                       <!-- Modal -->
+                                       <div class="modal fade" id="delete_service' . $row['id'] . '" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                       <div class="modal-dialog modal-dialog-centered">
+                                           <div class="modal-content">
+                                           <div class="modal-header">
+                                               <h5 class="modal-title" id="staticBackdropLabel">Delete Service</h5>
+                                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                           </div>
+                                           <form action="backend/service.php" method="post" enctype="multipart/form-data">
+                                               <div class="modal-body">
+                                               
+                                                       <div class="mb-3">
+                                                       <label for="exampleFormControlInput1" class="form-label text-danger">Do you want to delete this service ?</label>
+                                                       <input required value="' . $row['id'] . '" type="hidden" name="id" class="form-control" id="id" >
+                                                       </div>
+                                               
+                                               </div>
+                                               <div class="modal-footer">
+                                                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                                   <button type="submit" name="delete_service_btn" class="btn btn-primary">Yes</button>
+                                               </div>
+                                           </form>
+                                           </div>
+                                       </div>
+                                       </div>
+                                       <!-- Modal End -->
+
                                        </tr>
                                        ';
-                                      }
+                                    }
                                 }
                                 ?>
-                               
+
                             </tbody>
                         </table>
                     </div>
@@ -207,45 +306,45 @@ include('db_connection.php');
 
             <!-- Modal -->
             <div class="modal fade" id="service_modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">New Service</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <form action="backend/service.php" method="post" enctype="multipart/form-data">
-                    <div class="modal-body">
-                    
-                            <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Service Name</label>
-                            <input required type="text" name="name" class="form-control" id="name" >
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">New Service</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <form action="backend/service.php" method="post" enctype="multipart/form-data">
+                            <div class="modal-body">
+
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Service Name</label>
+                                    <input required type="text" name="name" class="form-control" id="name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Title Description</label>
+                                    <textarea name="description" class="form-control" id="summernote" rows="3"></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Full Details</label>
+                                    <textarea class="form-control" id="summernote1" name="details" rows="3"></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Image</label>
+                                    <input type="file" name="image" id="image" class="form-control" id="exampleFormControlTextarea1">
+                                </div>
+
                             </div>
-                            <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Title Description</label>
-                            <textarea name="description" class="form-control" id="summernote" rows="3"></textarea>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="submit" name="submit_service" class="btn btn-primary">Save</button>
                             </div>
-                            <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Full Details</label>
-                            <textarea class="form-control" id="summernote1" name="details" rows="3"></textarea>
-                            </div>
-                            <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Image</label>
-                            <input type="file" name="image" id="image" class="form-control" id="exampleFormControlTextarea1" >
-                            </div>
-                    
+                        </form>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="submit" name="submit_service" class="btn btn-primary">Save</button>
-                    </div>
-                </form>
                 </div>
-            </div>
             </div>
             <!-- Modal End -->
 
             <!-- Footer Start -->
-           <?php include('nav/footer.php'); ?>
+            <?php include('nav/footer.php'); ?>
             <!-- Footer End -->
         </div>
         <!-- Content End -->
@@ -269,7 +368,7 @@ include('db_connection.php');
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/v/bs/jq-3.3.1/jszip-2.5.0/dt-1.10.20/b-1.6.1/b-colvis-1.6.1/b-html5-1.6.1/b-print-1.6.1/datatables.min.js"></script>
-     <!-- Summernote JS - CDN Link -->
+    <!-- Summernote JS - CDN Link -->
     <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
     <script>
         $(document).ready(function() {
@@ -283,23 +382,22 @@ include('db_connection.php');
     <script src="js/main.js"></script>
 </body>
 <script>
-    $(document).ready(function () {
-      
-        $('#dataTables-example').DataTable({
-     dom: 'Bfrtip',
- buttons: [
-     'copy', 'csv', 'excel', 'pdf', 'print'
- ]
- });
+    $(document).ready(function() {
 
- $('#dataTables-exampl').DataTable({
-   dom: 'Bfrtip',
- buttons: [
-   //  'copy', 'csv', 'excel', 'pdf', 'print'
- ]
- });
+        $('#dataTables-example').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                'copy', 'csv', 'excel', 'pdf', 'print'
+            ]
+        });
+
+        $('#dataTables-exampl').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                //  'copy', 'csv', 'excel', 'pdf', 'print'
+            ]
+        });
     });
-  
-    
 </script>
+
 </html>

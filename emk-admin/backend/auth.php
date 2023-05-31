@@ -18,7 +18,7 @@ if (isset($_POST['auth'])) {
     
     $result = mysqli_query($conn, $sql);
     if (mysqli_num_rows($result) > 0) {
-        while($row = mysqli_fetch_assoc($result)) {
+        if($row = mysqli_fetch_assoc($result)) {
           
           $_SESSION['name'] = $row['fullName'];
           header('location: ../home.php');
@@ -27,4 +27,3 @@ if (isset($_POST['auth'])) {
         header('location: ../index.php');
       }
 }
-?>

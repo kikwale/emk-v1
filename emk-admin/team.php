@@ -190,9 +190,72 @@ include('db_connection.php');
                                        <td>'.$row['description'].'</td>
                                   
                                        <td>
-                                       <a class="btn btn-sm btn-warning" href="edit_service.php?id='.$row['id'].'"><i class="fa fa-edit"></i></a>
-                                       <a class="btn btn-sm btn-danger" href="delete_service.php?id='.$row['id'].'"><i class="fa fa-trash"></i></a>
+                                       <a class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#edit_service' . $row['id'] . '" href="#"><i class="fa fa-edit"></i></a>
+                                       <a class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#delete_service' . $row['id'] . '" href="#"><i class="fa fa-trash"></i></a>
                                        </td>
+
+                                       <!-- Modal -->
+                                       <div class="modal fade" id="edit_service' . $row['id'] . '" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                       <div class="modal-dialog modal-dialog-centered">
+                                           <div class="modal-content">
+                                           <div class="modal-header">
+                                               <h5 class="modal-title" id="staticBackdropLabel">Edit Project</h5>
+                                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                           </div>
+                                           <form action="backend/team.php" method="post" enctype="multipart/form-data">
+                                               <div class="modal-body">
+                                               
+                                                       <div class="mb-3">
+                                                       <label for="exampleFormControlInput1" class="form-label">Project Name</label>
+                                                       <input required value="' . $row['name'] . '" type="text" name="name" class="form-control" id="name" >
+                                                       <input required value="' . $row['id'] . '" type="hidden" name="id" class="form-control" id="id" >
+                                                       </div>
+                                                       <div class="mb-3">
+                                                       <label for="exampleFormControlTextarea1" class="form-label">Title Description</label>
+                                                       <textarea name="description" value="' . $row['description'] . '" class="form-control" id="summernote" rows="3">' . $row['description'] . '</textarea>
+                                                       </div>
+                                                       <div class="mb-3">
+                                                       <label for="exampleFormControlTextarea1" class="form-label">Image</label>
+                                                       <input type="file" name="image" id="image" class="form-control" id="exampleFormControlTextarea1" >
+                                                       </div>
+                                               
+                                               </div>
+                                               <div class="modal-footer">
+                                                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                   <button type="submit" name="edit_team_btn" class="btn btn-primary">Save</button>
+                                               </div>
+                                           </form>
+                                           </div>
+                                       </div>
+                                       </div>
+                                       <!-- Modal End -->
+
+                                       <!-- Modal -->
+                                       <div class="modal fade" id="delete_service' . $row['id'] . '" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                       <div class="modal-dialog modal-dialog-centered">
+                                           <div class="modal-content">
+                                           <div class="modal-header">
+                                               <h5 class="modal-title" id="staticBackdropLabel">Delete Project</h5>
+                                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                           </div>
+                                           <form action="backend/team.php" method="post" enctype="multipart/form-data">
+                                               <div class="modal-body">
+                                               
+                                                       <div class="mb-3">
+                                                       <label for="exampleFormControlInput1" class="form-label text-danger">Do you want to delete ?</label>
+                                                       <input required value="' . $row['id'] . '" type="hidden" name="id" class="form-control" id="id" >
+                                                       </div>
+                                               
+                                               </div>
+                                               <div class="modal-footer">
+                                                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                                   <button type="submit" name="delete_team_btn" class="btn btn-primary">Yes</button>
+                                               </div>
+                                           </form>
+                                           </div>
+                                       </div>
+                                       </div>
+                                       <!-- Modal End -->
                                        </tr>
                                        ';
                                       }
@@ -211,7 +274,7 @@ include('db_connection.php');
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">New Service</h5>
+                    <h5 class="modal-title" id="staticBackdropLabel">New Team</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <form action="backend/team.php" method="post" enctype="multipart/form-data">
