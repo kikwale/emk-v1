@@ -1,4 +1,5 @@
 <?php
+$title = "EMK | Team";
 include("partials/arrays.php");
 include('partials/header.php');
 include('partials/navigation.php');

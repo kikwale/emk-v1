@@ -10,7 +10,7 @@
 <meta name="description" content="Raxena - Construction HTML Template" />
 <meta name="author" content="https://www.cymolthemes.com/" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title><? echo $title; ?></title>
+<title><?php echo $title; ?></title>
 
 <link rel=“canonical” href=%c3%a2%c2%80%c2%9chttps_/www.cymolthemes.com/html/raxena/%c3%a2%c2%80%c2%9d.html />
 

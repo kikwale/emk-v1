@@ -1,5 +1,6 @@
 
 <?php
+$title = "EMK | Service Details";
 include("partials/arrays.php");
 include('partials/header.php');
 include('partials/navigation.php');
@@ -77,16 +78,6 @@ include('partials/navigation.php');
 
                   
                     <div class="col-lg-4 widget-area sidebar-left order-2 order-lg-1">
-                        <aside class="widget widget-search">
-                            <h3 class="widget-title">Search</h3>
-                            <form role="search" method="get" class="search-form" action="#">
-                                <label>
-                                <span class="screen-reader-text">Search for:</span>
-                                <i class="fa fa-search"></i>
-                                <input type="search" class="input-text" placeholder="Search …" value="" name="s">
-                                </label>
-                            </form>
-                        </aside>
                         <aside class="widget widget-nav-menu">
                             <h3 class="widget-title">Other Services</h3>
                             <ul class="widget-menu">

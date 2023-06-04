@@ -1,4 +1,5 @@
 <?php
+$title = "EMK | Services";
 include("partials/arrays.php");
 include('partials/header.php');
 include('partials/navigation.php');
@@ -73,6 +74,9 @@ include('db_connection.php');
                                     </div>
                                        ';
                                       }
+                                }
+                                else {
+                                    echo "No services yet";
                                 }
                                 ?>
                  
