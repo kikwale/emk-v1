@@ -5,14 +5,14 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="keywords" content="HTML5 Template" />
-<meta name=”keywords” content=" Raxena – Construction HTML Template, Duplexo – Construction Renovation WordPress Theme + RTL themes & template, html5 template, WordPress theme, unlimited colors available, ui/ux, ui/ux design, best html template, html template, html, JavaScript, best css theme,css3, elementor theme, latest premium themes 2023, latest premium templates 2023, Preyan Technosys Pvt.Ltd, cymol themes, themetech mount, Web 3.0, multi-theme, website theme and template, woocommerce, bootstrap template, web templates, responsive theme, services, web design and development, business, company, architect, architect portfolio, building, building company, company, construction, construction building, construction company, construction software, contractor, modern themes, property, property development, property management">
-<meta name="description" content="Raxena - Construction HTML Template" />
-<meta name="author" content="https://www.cymolthemes.com/" />
+<meta name="keywords" content="Pro Maker Company Limited" />
+<meta name=”keywords” content=" Pro Maker Company Limited, Machine Installation, Machine Foundation, Construction">
+<meta name="description" content="Machine Installation and Engineering Company" />
+<meta name="author" content="https://www.digitalsurpass.co.tz/" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <title><?php echo $title; ?></title>
 
-<link rel=“canonical” href=%c3%a2%c2%80%c2%9chttps_/www.cymolthemes.com/html/raxena/%c3%a2%c2%80%c2%9d.html />
+<!-- <link rel=“canonical” href=%c3%a2%c2%80%c2%9chttps_/www.cymolthemes.com/html/raxena/%c3%a2%c2%80%c2%9d.html /> -->
 
 <!-- favicon icon -->
 <link rel="shortcut icon" href="images/favicon.png" />

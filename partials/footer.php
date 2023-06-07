@@ -11,7 +11,7 @@
                         <img id="footer-logo-img" class="img-center" src="images/footer-logo.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-9">
+                <!-- <div class="col-lg-9">
                     <div class="cmt-footer-cta-wrapper cmt-bgcolor-skincolor box-shadow2">
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 widget-area">
@@ -42,7 +42,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -53,9 +53,9 @@
                     <div class="widget widget_contact clearfix">
                         <h3 class="widget-title">Get In Touch</h3>
                         <ul class="">
-                            <li><i class="fa fa-map-marker"></i>Mbezi Beach,Kinondoni,<br>Dar Es Salaam, Tanzania</li>
-                            <li><i class="fa fa-envelope-o"></i>Email : <a href="mailto:info@emk.co.tz">info@emk.co.tz</a></li>
-                            <li><i class="fa fa-phone"></i>Phone : +255 768 061 488 <br>Whatsapp : +966 57 238 1809</li>
+                            <li><i class="fa fa-map-marker"></i><?php echo $address; ?></li>
+                            <li><i class="fa fa-envelope-o"></i>Email : <a href="mail to:<?php echo $email; ?>"><?php echo $email; ?></a></li>
+                            <li><i class="fa fa-phone"></i>Phone : <?php echo $mobile; ?><br>Whatsapp : <?php echo $whatsapp; ?></li>
                         </ul>
                     </div>
                 </div>
@@ -104,9 +104,9 @@
                     <div class="widget widget_text clearfix">
                        <h3 class="widget-title">Get Free Estimate</h3>
                        <div class="">
-                            <h3 class="widget_text_title cmt-textcolor-skincolor">+255 768 061 488</h3>
+                            <h3 class="widget_text_title cmt-textcolor-skincolor"><?php echo $mobile; ?></h3>
                             <p>Our online scheduling and payment system is safe.</p>
-                            <a class="cmt-btn cmt-btn-size-md cmt-btn-shape-square cmt-btn-style-border cmt-btn-color-skincolor mt-15 mb-20" href="#">Request With Online Form</a>
+                            <!-- <a class="cmt-btn cmt-btn-size-md cmt-btn-shape-square cmt-btn-style-border cmt-btn-color-skincolor mt-15 mb-20" href="#">Request With Online Form</a> -->
                         </div>
                     </div>
                 </div>
@@ -117,15 +117,15 @@
         <div class="container">
             <div class="row copyright">
                 <div class="col-md-8 cmt-footer2-left">
-                    <span>Copyright © <?php echo date('Y');?>&nbsp; EMK . All rights reserved. Designed by <a href="https://digitalsurpass.co.tz/">digitalsurpass</a></span>
+                    <span>Copyright © <?php echo date('Y');?>&nbsp; <?php echo $company; ?> . All rights reserved. Designed by <a href="https://digitalsurpass.co.tz/">digitalsurpass</a></span>
                 </div>
                 <div class="col-md-4 cmt-footer2-right">
                    <div class="social-icons">
                         <ul class="list-inline">
-                            <li><a href="#"><i class="ti ti-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="ti ti-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="ti ti-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="ti ti-google" aria-hidden="true"></i></a></li>
+                            <li><a href="<?php echo $facebook; ?>"><i class="ti ti-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="<?php echo $instagram; ?>"><i class="ti ti-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="<?php echo $linkedin; ?>"><i class="ti ti-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="<?php echo $twitter; ?>"><i class="ti ti-twitter" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>

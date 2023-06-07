@@ -1,5 +1,6 @@
      <?php 
         include('db_connection.php');
+        include('partials/particulars.php');
     ?>
         
         
@@ -20,8 +21,8 @@
                                                 <div class="topbar-right text-right">
                                                     <ul class="top-contact">
                                                         <li><span class="tel-no"> Your Trusted 24 Hours Service Provider!</span></li>
-                                                        <li><i class="fa fa-envelope-o"></i><a href="mailto:info@emk.co.tz">info@emk.co.tz</a></li>
-                                                        <li><i class="fa fa-phone"></i>+255 768 061 488</li>
+                                                        <li><i class="fa fa-envelope-o"></i><a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a></li>
+                                                        <li><i class="fa fa-phone"></i><?php echo $mobile; ?></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -37,14 +38,10 @@
                                             <!-- social-links-wrapper -->
                                             <div class="cmt-social-links-wrapper list-inline">
                                                 <ul class="social-icons square">
-                                                    <li><a href="#"><i class="ti ti-facebook"></i></a>
-                                                    </li>
-                                                    <li><a href="#"><i class="ti ti-twitter"></i></a>
-                                                    </li>
-                                                    <li><a href="#"><i class="ti ti-google"></i></a>
-                                                    </li>
-                                                    <li><a href="#"><i class="ti ti-linkedin"></i></a>
-                                                    </li>
+                                                    <li><a href="<?php echo $facebook; ?>"><i class="ti ti-facebook" aria-hidden="true"></i></a></li>
+                                                    <li><a href="<?php echo $instagram; ?>"><i class="ti ti-instagram" aria-hidden="true"></i></a></li>
+                                                    <li><a href="<?php echo $linkedin; ?>"><i class="ti ti-linkedin" aria-hidden="true"></i></a></li>
+                                                    <li><a href="<?php echo $twitter; ?>"><i class="ti ti-twitter" aria-hidden="true"></i></a></li>
                                                 </ul>
                                             </div><!-- social-links-wrapper -->
                                             <!-- header-icons -->
