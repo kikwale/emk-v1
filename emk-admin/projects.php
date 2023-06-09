@@ -247,7 +247,7 @@ include('db_connection.php');
                                                        </div>
                                                        <div class="mb-3">
                                                        <label for="exampleFormControlTextarea1" class="form-label">Full Details</label>
-                                                       <textarea class="form-control" id="summernote1" value="' . $row['details'] . '" name="details" rows="3">' . $row['details'] . '</textarea>
+                                                       <textarea class="form-control" id="summernote1" value="'.$row['details'].'" name="details" rows="3"></textarea>
                                                        </div>
                                                        <div class="mb-3">
                                                        <label for="exampleFormControlTextarea1" class="form-label">Image</label>

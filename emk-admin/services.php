@@ -242,11 +242,11 @@ include('db_connection.php');
                                                        </div>
                                                        <div class="mb-3">
                                                        <label for="exampleFormControlTextarea1" class="form-label">Title Description</label>
-                                                       <textarea name="description" value="' . $row['description'] . '" class="form-control" id="summernote" rows="3">' . $row['description'] . '</textarea>
+                                                       <textarea name="description" value="'. $row['description'].'" class="form-control" id="summernote3" rows="3">'.$row['description'].'</textarea>
                                                        </div>
                                                        <div class="mb-3">
                                                        <label for="exampleFormControlTextarea1" class="form-label">Full Details</label>
-                                                       <textarea class="form-control" id="summernote1" value="' . $row['details'] . '" name="details" rows="3">' . $row['details'] . '</textarea>
+                                                       <textarea class="form-control" id="summernote2" value="' . $row['details'] . '" name="details" rows="3">' . $row['details'] . '</textarea>
                                                        </div>
                                                        <div class="mb-3">
                                                        <label for="exampleFormControlTextarea1" class="form-label">Image</label>
@@ -309,7 +309,7 @@ include('db_connection.php');
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="staticBackdropLabel">New Service</h5>
+                            <h5 class="modal-title" id="staticBackdropLabel">Add New Service</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <form action="backend/service.php" method="post" enctype="multipart/form-data">
@@ -320,11 +320,11 @@ include('db_connection.php');
                                     <input required type="text" name="name" class="form-control" id="name">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Title Description</label>
+                                    <label for="exampleFormControlTextarea1" class="form-label">Service Description</label>
                                     <textarea name="description" class="form-control" id="summernote" rows="3"></textarea>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Full Details</label>
+                                    <label for="exampleFormControlTextarea1" class="form-label">Service Full Details</label>
                                     <textarea class="form-control" id="summernote1" name="details" rows="3"></textarea>
                                 </div>
                                 <div class="mb-3">
@@ -374,6 +374,8 @@ include('db_connection.php');
         $(document).ready(function() {
             $("#summernote").summernote();
             $("#summernote1").summernote();
+            $("#summernote2").summernote();
+            $("#summernote3").summernote();
             $('.dropdown-toggle').dropdown();
         });
     </script>

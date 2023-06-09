@@ -66,7 +66,7 @@
                             <li><a href="index.php">Home</a></li>
                             <li><a href="aboutus.php">About Us</a></li>
                             <li><a href="services.php">Services</a></li>
-                            <li><a href="projects.php">Projects</a></li>
+                            <li><a href="projects-all.php">Projects</a></li>
                             <li><a href="team.php">Our Team</a></li>
                         </ul>
                     </div>
@@ -75,11 +75,17 @@
                     <div class="widget widget_nav_menu clearfix">
                        <h3 class="widget-title">Our Services</h3>
                         <ul id="">
-                            <li><a href="services.php">Machine installation</a></li>
-                            <li><a href="services.php">Architectural</a></li>
-                            <li><a href="services.php">Engineering design</a></li>
-                            <li><a href="services.php">Construction</a></li>
-                            <li><a href="services.php">Fabrication</a></li>
+
+                            <?php
+                            $query = "SELECT * FROM service LIMIT 5";
+                            $result = mysqli_query($conn,$query);
+                            if(mysqli_num_rows($result) > 0){
+                                while($row = mysqli_fetch_assoc($result)){ ?>
+                                    <li><a href="service-details.php?service_id=<?php echo $row['id']; ?>"><?php echo $row['name']; ?></a></li>
+                            <?php 
+                                }
+                            }
+                            ?>
                         </ul>
                     </div>
                 </div>

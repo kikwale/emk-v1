@@ -104,8 +104,8 @@
                                                                 }
                                                             }
                                                             ?>
-                                                       
-                                                        </ul>
+                                                       <li><a href="projects-all.php">All Projects</a></li>
+                                                    </ul>
                                                     </li>
                                                     <li><a href="team.php">Our Team</a></li>
                                                     <!-- <li><a href="blog.php">Blog</a></li> -->
