@@ -21,173 +21,47 @@
             <div class="container-fluid">
                 <!-- row -->
                 <div class="row portfolio-slide owl-carousel cmt-boxes-spacing-10px owl-theme owl-loaded" data-item="5" data-nav="false" data-dots="false" data-auto="false">
-                    <!-- featured-imagebox -->
-                    <div class="col-lg cmt-box-col-wrapper">
-                        <div class="featured-imagebox featured-imagebox-portfolio style1">
-                            <!-- featured-thumbnail -->
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" src="images/portfolio/01.jpg" alt="image">
-                            </div><!-- featured-thumbnail end-->
-                            <!-- cmt-box-view-overlay -->
-                            <div class="cmt-box-view-overlay">
-                                <div class="portfolio-icon-box">
-                                    <a href="projects.php"><i class="ti ti-plus"></i></a>
+                    <?php
+                $sql = "SELECT * FROM projects ORDER BY id DESC LIMIT 5";
+                $result = mysqli_query($conn, $sql);
+                if (mysqli_num_rows($result) > 0) {
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        echo '<div class="col-lg cmt-box-col-wrapper">
+                            <div class="featured-imagebox featured-imagebox-portfolio style1">
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="images/portfolio/' . $row['image'] . '" alt="image">
                                 </div>
-                            </div><!-- cmt-box-view-overlay end-->
-                            <div class="featured-content">
-                                <div class="category">
-                                    <p>Insulation</p>
-                                </div>
-                                <div class="featured-title">
-                                    <h5><a href="projects.php">Install insulation</a></h5>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox -->
-                    </div>
-                    <!-- featured-imagebox -->
-                    <div class="col-lg cmt-box-col-wrapper">
-                        <div class="featured-imagebox featured-imagebox-portfolio style1">
-                            <!-- featured-thumbnail -->
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" src="images/portfolio/02.jpg" alt="image">
-                            </div><!-- featured-thumbnail end-->
-                            <!-- cmt-box-view-overlay -->
-                            <div class="cmt-box-view-overlay">
-                                <div class="portfolio-icon-box">
-                                    <a href="projects.php"><i class="ti ti-plus"></i></a>
-                                </div>
-                            </div><!-- cmt-box-view-overlay end-->
-                            <div class="featured-content">
-                                <div class="category">
-                                    <p>Textures</p>
-                                </div>
-                                <div class="featured-title">
-                                    <h5><a href="projects.php">interior textures</a></h5>
+                                <!-- cmt-box-view-overlay -->
+                                <div class="cmt-box-view-overlay">
+                                    <div class="portfolio-icon-box">
+                                        <a href="project-details.php?id=' . $row['id'] . '"><i class="ti ti-plus"></i></a>
+                                    </div>
+                                </div><!-- cmt-box-view-overlay end-->
+                                <div class="featured-content">
+                                    <div class="category">
+                                        <p>' . $row['title'] . '</p>
+                                    </div>
+                                    <div class="featured-title">
+                                        <h5><a href="project-details.php' . $row['id'] . '">' . $row['description'] . '</a></h5>
+                                    </div>
                                 </div>
                             </div>
-                        </div><!-- featured-imagebox -->
-                    </div>
-                    <!-- featured-imagebox -->
-                    <div class="col-lg cmt-box-col-wrapper">
-                        <div class="featured-imagebox featured-imagebox-portfolio style1">
-                            <!-- featured-thumbnail -->
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" src="images/portfolio/03.jpg" alt="image">
                             </div>
-                            <!-- cmt-box-view-overlay -->
-                            <div class="cmt-box-view-overlay">
-                                <div class="portfolio-icon-box">
-                                    <a href="projects.php"><i class="ti ti-plus"></i></a>
-                                </div>
-                            </div><!-- cmt-box-view-overlay end-->
-                            <div class="featured-content">
-                                <div class="category">
-                                    <p>exterior</p>
-                                </div>
-                                <div class="featured-title">
-                                    <h5><a href="projects.php">install exterior</a></h5>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox -->
-                    </div>
-                    <!-- featured-imagebox -->
-                    <div class="col-lg cmt-box-col-wrapper">
-                        <div class="featured-imagebox featured-imagebox-portfolio style1">
-                            <!-- featured-thumbnail -->
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" src="images/portfolio/04.jpg" alt="image">
-                            </div><!-- featured-thumbnail end-->
-                            <!-- cmt-box-view-overlay -->
-                            <div class="cmt-box-view-overlay">
-                                <div class="portfolio-icon-box">
-                                    <a href="projects.php"><i class="ti ti-plus"></i></a>
-                                </div>
-                            </div><!-- cmt-box-view-overlay end-->
-                            <div class="featured-content">
-                                <div class="category">
-                                    <p>exterior</p>
-                                </div>
-                                <div class="featured-title">
-                                    <h5><a href="projects.php">mechanical trim</a></h5>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox -->
-                    </div>
-                    <!-- featured-imagebox -->
-                    <div class="col-lg cmt-box-col-wrapper">
-                        <div class="featured-imagebox featured-imagebox-portfolio style1">
-                            <!-- featured-thumbnail -->
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" src="images/portfolio/05.jpg" alt="image">
-                            </div><!-- featured-thumbnail end-->
-                            <!-- cmt-box-view-overlay -->
-                            <div class="cmt-box-view-overlay">
-                                <div class="portfolio-icon-box">
-                                    <a href="projects.php"><i class="ti ti-plus"></i></a>
-                                </div>
-                            </div><!-- cmt-box-view-overlay end-->
-                            <div class="featured-content">
-                                <div class="category">
-                                    <p>exterior</p>
-                                </div>
-                                <div class="featured-title">
-                                    <h5><a href="projects.php">landscaping</a></h5>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox -->
-                    </div>
-                    <!-- featured-imagebox -->
-                    <div class="col-lg cmt-box-col-wrapper">
-                        <div class="featured-imagebox featured-imagebox-portfolio style1">
-                            <!-- featured-thumbnail -->
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" src="images/portfolio/06.jpg" alt="image">
-                            </div><!-- featured-thumbnail end -->
-                            <!-- cmt-box-view-overlay -->
-                            <div class="cmt-box-view-overlay">
-                                <div class="portfolio-icon-box">
-                                    <a href="projects.php"><i class="ti ti-plus"></i></a>
-                                </div>
-                            </div><!-- cmt-box-view-overlay end-->
-                            <div class="featured-content">
-                                <div class="category">
-                                    <p>exterior</p>
-                                </div>
-                                <div class="featured-title">
-                                    <h5><a href="projects.php">pour foundation</a></h5>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox -->
-                    </div>
-                    <!-- featured-imagebox -->
-                    <div class="col-lg cmt-box-col-wrapper">
-                        <div class="featured-imagebox featured-imagebox-portfolio style1">
-                            <!-- featured-thumbnail -->
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" src="images/portfolio/07.jpg" alt="image">
-                            </div><!-- featured-thumbnail end -->
-                            <!-- cmt-box-view-overlay -->
-                            <div class="cmt-box-view-overlay">
-                                <div class="portfolio-icon-box">
-                                    <a href="projects.php"><i class="ti ti-plus"></i></a>
-                                </div>
-                            </div><!-- cmt-box-view-overlay end-->
-                            <div class="featured-content">
-                                <div class="category">
-                                    <p>Install</p>
-                                </div>
-                                <div class="featured-title">
-                                    <h5><a href="projects.php">Install insulation</a></h5>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox -->
-                    </div>
+                        ';
+                    }
+                }
+                else {
+                    echo "No Project added for this Sub Category";
+                }
+                ?>
+
+
                 </div><!-- row -->
                 <!-- row -->
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="mt-30 mb-40 res-991-mt-30 text-center">
-                            <p class="mb-0">Don’t hesitate, contact us for better help and services.&nbsp;<a href="projects.php"><strong><u>View more Project</u></strong></a></p>
+                            <p class="mb-0">Don’t hesitate, contact us for better help and services.&nbsp;<a href="projects-all.php"><strong><u>View more Project</u></strong></a></p>
                         </div>
                     </div>
                 </div><!-- row end-->

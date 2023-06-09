@@ -16,7 +16,6 @@ include('db_connection.php');
         })
     });
 </script>
-
 <!-- page-title -->
 <div class="cmt-page-title-row">
     <div class="container">
