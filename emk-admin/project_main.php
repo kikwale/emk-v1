@@ -1,13 +1,14 @@
 
 <?php 
 include('db_connection.php');
+include("../partials/particulars.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>EMK-ADMIN</title>
+    <title><?php echo $company; ?></title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -363,16 +364,12 @@ include('db_connection.php');
       
         $('#dataTables-example').DataTable({
      dom: 'Bfrtip',
- buttons: [
-     'copy', 'csv', 'excel', 'pdf', 'print'
- ]
+ buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
  });
 
  $('#dataTables-exampl').DataTable({
    dom: 'Bfrtip',
- buttons: [
-   //  'copy', 'csv', 'excel', 'pdf', 'print'
- ]
+ buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
  });
     });
   

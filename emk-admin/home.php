@@ -1,5 +1,6 @@
 <?php 
 include('db_connection.php');
+include("../partials/particulars.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">

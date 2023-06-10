@@ -1,8 +1,10 @@
-<?php session_start(); ?>
+<?php 
+session_start();
+?>
 <div class="sidebar pe-4 pb-3">
             <nav class="navbar bg-light navbar-light">
                 <a href="index.php" class="navbar-brand mx-4 mb-3">
-                    <h3 class="text-primary"><i class="fa fa-hashtag me-2"></i>EMK</h3>
+                    <h3 class="text-primary"><i class="fa fa-hashtag me-2"></i><?php echo $company; ?></h3>
                 </a>
                 <div class="d-flex align-items-center ms-4 mb-4">
                     <div class="position-relative">

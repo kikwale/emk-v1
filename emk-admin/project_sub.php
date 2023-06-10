@@ -1,13 +1,14 @@
 
 <?php 
 include('db_connection.php');
+include("../partials/particulars.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>EMK-ADMIN</title>
+    <title><?php echo $company; ?></title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
