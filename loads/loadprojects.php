@@ -1,6 +1,6 @@
 <?php
 include('../db_connection.php');
-$sub_id = $_GET['subcategory'];
+$sub_id = $_POST['sub_id'];
 $sql = "SELECT * FROM projects WHERE sub_project_title_id = $sub_id";
 $result = mysqli_query($conn, $sql);
 if (mysqli_num_rows($result) > 0) {

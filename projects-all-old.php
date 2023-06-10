@@ -4,6 +4,18 @@ include('partials/header.php');
 include('partials/navigation.php');
 include('db_connection.php');
 ?>
+<script>
+    $(document).ready(function(){
+        $("#sub-cat").click(function(){
+            var sub_id = $("#sub-cat").val();
+            $.get('loads/loadprojects.php',{
+                subcategory:sub_id
+            },function(data,status){
+                $("#projects").html(data);
+            });
+        })
+    });
+</script>
 <!-- page-title -->
 <div class="cmt-page-title-row">
     <div class="container">
@@ -34,11 +46,10 @@ include('db_connection.php');
     <!--broken-section-->
     <section class="cmt-row portfolio-top-section clearfix">
         <div class="container mb-10">
-            <form class='form' action="">
+            <form class='form-inline' action="">
                 <div class="form-group">
                     <label for="category">Select Category</label>
-                    <select onchange="getSubProject(this.value)" name="category" id="category">
-                    <option value=""></option>'
+                    <select name="category" id="category">
                     <?php
                         $query = "SELECT * FROM main_project_title";
                         $result = mysqli_query($conn, $query);
@@ -50,7 +61,19 @@ include('db_connection.php');
                     ?>   
                     </select>
                 </div>
-                <div class="form-group" id="sub_project_category">
+                <div class="form-group">
+                    <label for="category">Select Sub Category</label>
+                    <select name="sub-category" id="sub-cat">
+                    <?php
+                        $query = "SELECT * FROM sub_project_title WHERE main_project_title_id";
+                        $result = mysqli_query($conn, $query);
+                        if(mysqli_num_rows($result)>0){
+                        while ($row1 = mysqli_fetch_assoc($result)){
+                            echo'<option value="'.$row1["id"].'">'.$row1["name"].'</option>';
+                        }
+                        }
+                    ?>   
+                    </select>
                 </div>
                 <!-- <div class="form-group">
                     <input type="button" value="submit">
@@ -59,7 +82,7 @@ include('db_connection.php');
         </div>
         <div class="container">
             <div class="row" id="projects">
-            <?php
+                <?php
                 $sql = "SELECT * FROM projects";
                 $result = mysqli_query($conn, $sql);
                 if (mysqli_num_rows($result) > 0) {
@@ -95,6 +118,8 @@ include('db_connection.php');
                     echo "No Project added for this Sub Category";
                 }
                 ?>
+
+
             </div><!-- row end -->
         </div>
     </section>
@@ -107,28 +132,3 @@ include('partials/footer.php');
 include('partials/theme.php');
 include('partials/libraries.php');
 ?>
-<script>
-    function getSubProject(value){
-       // alert(value);
-        $.ajax({
-          type:'post',
-          url:'partials/get_sub_project_category.php',
-          data:{id:value},
-          success:function (data) {
-           $('#sub_project_category').html(data);
-          }
-        });
-    };
-
-    function showprojects(value){
-       // alert(value);
-        $.ajax({
-          type:'post',
-          url:'loads/loadprojects.php',
-          data:{sub_id:value},
-          success:function (data) {
-           $('#projects').html(data);
-          }
-        });
-    }
-</script>
