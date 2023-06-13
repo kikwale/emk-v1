@@ -42,7 +42,7 @@
                                         <p>' . $row['title'] . '</p>
                                     </div>
                                     <div class="featured-title">
-                                        <h5><a href="project-details.php' . $row['id'] . '">' . $row['description'] . '</a></h5>
+                                        <h5><a href="project-details.php?id=' . $row['id'] . '">' . $row['description'] . '</a></h5>
                                     </div>
                                 </div>
                             </div>
