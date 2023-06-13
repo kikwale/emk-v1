@@ -1,6 +1,6 @@
 
 <?php
-$title = "EMK | Service Details";
+$title = "Pro-Mek-Engineering | Service Details";
 include("partials/arrays.php");
 include('partials/header.php');
 include('partials/navigation.php');

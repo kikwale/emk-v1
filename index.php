@@ -1,5 +1,5 @@
 <?php 
-$title = "EMK | Home";
+$title = "Pro-Mek-Engineering | Home";
 include('partials/header.php'); 
 include('partials/navigation.php'); 
 include('partials/slider.php');

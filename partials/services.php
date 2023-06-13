@@ -119,7 +119,7 @@
                                     <div class="sep-line mt-10 mb-15"></div>
                                 </div>
                                 <div class="featured-desc"><!--featured-desc-->
-                                    <p>EMK offers soulution across industrial , commercial , residential construction services. Generally we perfom as general conractors , desgn and build , specialist sub contractors </p>
+                                    <p>Pro-Mek-Engineering offers soulution across industrial , commercial , residential construction services. Generally we perfom as general conractors , desgn and build , specialist sub contractors </p>
                                 </div>
                                 <a href="services.php" class="cmt-icon cmt-icon_element-border cmt-icon_element-color-white cmt-icon_element-size-xs cmt-icon_element-style-round">
                                     <i class="fa fa-angle-double-right"></i>

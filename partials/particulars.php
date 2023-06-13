@@ -1,7 +1,7 @@
 <?php
-$company = "Pro Maker";
+$company = "Pro-Mek-Engineering";
 $mobile = "+255 768 061 488";
-$email = "info@emk.co.tz";
+$email = "info@pro-mek-engineering.com";
 $address = "Mbezi Beach,Kinondoni,<br>Dar Es Salaam, Tanzania";
 $whatsapp = "+966 57 238 1809";
 $facebook = "";
