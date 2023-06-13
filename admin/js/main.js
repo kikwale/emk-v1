@@ -179,7 +179,6 @@
         }
     });
 
-
     // Doughnut Chart
     var ctx6 = $("#doughnut-chart").get(0).getContext("2d");
     var myChart6 = new Chart(ctx6, {

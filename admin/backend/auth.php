@@ -1,17 +1,12 @@
 <?php
 
 session_start();
-$servername = "localhost";
-$username = "root";
-$password = "";
-$db = "emk";
-
+include("../db_connection.php");
 // Create connection
 
 $message = "";
 if (isset($_POST['auth'])) {
     $isSuccess = 0;
-    $conn = mysqli_connect($servername, $username, $password,$db);
     $email = $_POST['email'];
     $password = $_POST['password'];
     $sql = "SELECT * FROM users where email='$email' AND password='$password'";
@@ -24,6 +19,6 @@ if (isset($_POST['auth'])) {
           header('location: ../home.php');
           }
     } else {
-        header('location: ../index.php');
+        header('location: ../index.php?error=invaliduser');
       }
 }
