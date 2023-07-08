@@ -194,8 +194,8 @@ include("../partials/particulars.php");
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-light text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
-                        <h6 class="mb-0">Services</h6>
-                        <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#service_modal"><i class="fa fa-plus"></i> New Project</a>
+                        <h6 class="mb-0">Gallery</h6>
+                        <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#service_modal"><i class="fa fa-plus"></i> New Gallery</a>
                     </div>
                     <div class="table-responsive">
                         <table id="dataTables-example" class="table text-start align-middle table-bordered table-hover mb-0">
@@ -203,15 +203,15 @@ include("../partials/particulars.php");
                                 <tr class="text-dark">
                                     <th scope="col"><input class="form-check-input" type="checkbox"></th>
                                     <th scope="col">Project name</th>
-                                    <th scope="col">Description</th>
-                                    <th scope="col">Detail</th>
+                                    <th scope="col">Sub Category</th>
+                                    <th scope="col">Image Gallery</th>
                                     <th scope="col">Action</th>
                                 </tr>
                             </thead>
+                            
                             <tbody>
-
                                 <?php 
-                                $sql = "SELECT * FROM projects";
+                                $sql = "SELECT * FROM gallery LEFT JOIN projects ON gallery.project_id=projects.id LEFT JOIN sub_project_title ON sub_project_title.id=projects.sub_project_title_id";
                                 $result = mysqli_query($conn, $sql);
                                 if (mysqli_num_rows($result) > 0) {
                                     while($row = mysqli_fetch_assoc($result)) {
@@ -219,28 +219,28 @@ include("../partials/particulars.php");
                                        <tr>                             
                                        <td><input class="form-check-input" type="checkbox"></td>
                                        <td contenteditable="'.true.'">'.$row['title'].'</td>
-                                       <td>'.$row['description'].'</td>
-                                       <td>'.$row['details'].'</td>
+                                       <td>'.$row['name'].'</td>
+                                       <td><img src="../images/gallery/'.$row['gallery'].'" alt="" width="40" height="30"></td>
                                        <td>
-                                       <a class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#edit_service' . $row['id'] . '" href="#"><i class="fa fa-edit"></i></a>
-                                       <a class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#delete_service' . $row['id'] . '" href="#"><i class="fa fa-trash"></i></a>
+                                       <a class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#edit_gallery' . $row['gallery_id'] . '" href="#"><i class="fa fa-edit"></i></a>
+                                       <a class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#delete_gallery' . $row['gallery_id'] . '" href="#"><i class="fa fa-trash"></i></a>
                                        </td>
 
                                        <!-- Modal -->
-                                       <div class="modal fade" id="edit_service' . $row['id'] . '" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                       <div class="modal fade" id="edit_gallery' . $row['gallery_id'] . '" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                        <div class="modal-dialog modal-dialog-centered">
                                            <div class="modal-content">
                                            <div class="modal-header">
                                                <h5 class="modal-title" id="staticBackdropLabel">Edit Project</h5>
                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                            </div>
-                                           <form action="backend/projects.php" method="post" enctype="multipart/form-data">
+                                           <form action="backend/gallery.php" method="post" enctype="multipart/form-data">
                                                <div class="modal-body">
                                                
                                                        <div class="mb-3">
                                                        <label for="exampleFormControlInput1" class="form-label">Project Name</label>
                                                        <input required value="' . $row['title'] . '" type="text" name="title" class="form-control" id="title" >
-                                                       <input required value="' . $row['id'] . '" type="hidden" name="id" class="form-control" id="id" >
+                                                       <input required value="' . $row['gallery_id'] . '" type="hidden" name="id" class="form-control" id="id" >
                                                        </div>
                                                        <div class="mb-3">
                                                        <label for="exampleFormControlTextarea1" class="form-label">Title Description</label>
@@ -267,7 +267,7 @@ include("../partials/particulars.php");
                                        <!-- Modal End -->
 
                                        <!-- Modal -->
-                                       <div class="modal fade" id="delete_service' . $row['id'] . '" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                       <div class="modal fade" id="delete_gallery' . $row['gallery_id'] . '" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                        <div class="modal-dialog modal-dialog-centered">
                                            <div class="modal-content">
                                            <div class="modal-header">
@@ -279,13 +279,13 @@ include("../partials/particulars.php");
                                                
                                                        <div class="mb-3">
                                                        <label for="exampleFormControlInput1" class="form-label text-danger">Do you want to delete ?</label>
-                                                       <input required value="' . $row['id'] . '" type="hidden" name="id" class="form-control" id="id" >
+                                                       <input required value="' . $row['gallery_id'] . '" type="hidden" name="id" class="form-control" id="id" >
                                                        </div>
                                                
                                                </div>
                                                <div class="modal-footer">
                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
-                                                   <button type="submit" name="delete_project_btn" class="btn btn-primary">Yes</button>
+                                                   <button type="submit" name="delete_gallery_btn" class="btn btn-primary">Yes</button>
                                                </div>
                                            </form>
                                            </div>
@@ -311,43 +311,27 @@ include("../partials/particulars.php");
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">New Project</h5>
+                    <h5 class="modal-title" id="staticBackdropLabel">New Gallery</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <form action="backend/projects.php" method="post" enctype="multipart/form-data">
+                <form action="backend/gallery.php" method="post" enctype="multipart/form-data">
                     <div class="modal-body">
-                    
                             <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Project Name</label>
-                            <input required type="text" name="title" class="form-control" id="title" >
-                            </div>
-                            <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Project Category</label>
+                            <label for="exampleFormControlInput1" class="form-label">Select Project</label>
                             <select required onchange="getSubProject(this.value)" type="text" name="main_project" class="form-control" id="main_project" >
                                 <option value=""></option>
                                 <?php 
-                                $sql = "SELECT * FROM main_project_title";
+                                $sql = "SELECT * FROM projects";
                                 $result = mysqli_query($conn, $sql);
                                 if (mysqli_num_rows($result) > 0) {
                                     while($row = mysqli_fetch_assoc($result)) {
                                        echo '
-                                       <option value="'.$row['id'].'">'.$row['name'].'</option>
+                                       <option value="'.$row['id'].'">'.$row['title'].'</option>
                                        ';
                                       }
                                 }
                                 ?>
                             </select>
-                            </div>
-                            <div class="mb-3" id="sub_project_category">
-                           
-                            </div>
-                            <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Title Description</label>
-                            <textarea name="description" class="form-control" id="summernote" rows="3"></textarea>
-                            </div>
-                            <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Full Details</label>
-                            <textarea class="form-control" id="summernote1" name="details" rows="3"></textarea>
                             </div>
                             <div class="mb-3">
                             <label for="exampleFormControlTextarea1" class="form-label">Image</label>
@@ -357,7 +341,7 @@ include("../partials/particulars.php");
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="submit" name="submit_project" class="btn btn-primary">Save</button>
+                        <button type="submit" name="submit_gallery" class="btn btn-primary">Save</button>
                     </div>
                 </form>
                 </div>

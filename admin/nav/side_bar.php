@@ -29,6 +29,7 @@ session_start();
                     </div>
                     
                     <a href="team.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Team</a>
+                    <a href="gallery.php" class="nav-item nav-link"><i class="fa fa-image me-2"></i>Gallery</a>
                   
                 </div>
             </nav>

@@ -54,6 +54,7 @@ include('partials/navigation.php');
                 $result = mysqli_query($conn, $sql);
                 if (mysqli_num_rows($result) > 0) {
                     while($row = mysqli_fetch_assoc($result)) {
+                        echo '';
                         echo '
                         <div class="col-lg-8 content-area order-1 order-lg-2">
                         <!-- cmt-service-single-content-are -->
@@ -70,11 +71,13 @@ include('partials/navigation.php');
                                 </div>
                             </div>
                         </div><!-- cmt-service-single-content-are end -->
-                    </div>
-                        ';
-                        }
-                }
+                        </div>';
+            }
+        }
+
                 ?>
+
+
 
                   
                     <div class="col-lg-4 widget-area sidebar-left order-2 order-lg-1">
@@ -89,7 +92,7 @@ include('partials/navigation.php');
                             </form>
                         </aside> -->
                         <aside class="widget widget-nav-menu">
-                            <h3 class="widget-title">Other Projects</h3>
+                            <h3 class="widget-title">Related Projects</h3>
                             <ul class="widget-menu">
 
                             <?php 
@@ -108,10 +111,7 @@ include('partials/navigation.php');
                         }
                 }
                 ?>
-
-                                
-                             
-                               
+  
                             </ul>
                         </aside>
                     </div>

@@ -107,6 +107,7 @@
                                                        <li><a href="projects-all.php">All Projects</a></li>
                                                     </ul>
                                                     </li>
+                                                    <li><a href="galleries.php">Gallery</a></li>
                                                     <li><a href="team.php">Our Team</a></li>
                                                     <!-- <li><a href="blog.php">Blog</a></li> -->
                                                     <!-- <li><a href="contact-us.php">Contact Us</a></li> -->
