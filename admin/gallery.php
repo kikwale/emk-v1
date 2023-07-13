@@ -221,9 +221,9 @@ include("../partials/particulars.php");
                                        <td contenteditable="'.true.'">'.$row['title'].'</td>
                                        <td>'.$row['name'].'</td>
                                        <td><img src="../images/gallery/'.$row['gallery'].'" alt="" width="40" height="30"></td>
-                                       <td>
-                                       <a class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#edit_gallery' . $row['gallery_id'] . '" href="#"><i class="fa fa-edit"></i></a>
-                                       <a class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#delete_gallery' . $row['gallery_id'] . '" href="#"><i class="fa fa-trash"></i></a>
+                                       <td>'.
+                                    // '<a class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#edit_gallery' . $row['gallery_id'] . '" href="#"><i class="fa fa-edit"></i></a>'
+                                       '<a class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#delete_gallery' . $row['gallery_id'] . '" href="#"><i class="fa fa-trash"></i></a>
                                        </td>
 
                                        <!-- Modal -->
@@ -231,34 +231,29 @@ include("../partials/particulars.php");
                                        <div class="modal-dialog modal-dialog-centered">
                                            <div class="modal-content">
                                            <div class="modal-header">
-                                               <h5 class="modal-title" id="staticBackdropLabel">Edit Project</h5>
+                                               <h5 class="modal-title" id="staticBackdropLabel">Edit Gallery</h5>
                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                            </div>
                                            <form action="backend/gallery.php" method="post" enctype="multipart/form-data">
                                                <div class="modal-body">
                                                
-                                                       <div class="mb-3">
-                                                       <label for="exampleFormControlInput1" class="form-label">Project Name</label>
-                                                       <input required value="' . $row['title'] . '" type="text" name="title" class="form-control" id="title" >
+                                                       <div class="mb-3 form-group">
+                                                       <label for="exampleFormControlInput1" class="">Project Name</label>
+                                                       <input required value="' . $row['title'] . '" type="text" name="project" class="form-control" id="title" >
                                                        <input required value="' . $row['gallery_id'] . '" type="hidden" name="id" class="form-control" id="id" >
                                                        </div>
-                                                       <div class="mb-3">
-                                                       <label for="exampleFormControlTextarea1" class="form-label">Title Description</label>
-                                                       <textarea name="description" value="' . $row['description'] . '" class="form-control" id="summernote" rows="3">' . $row['description'] . '</textarea>
-                                                       </div>
-                                                       <div class="mb-3">
-                                                       <label for="exampleFormControlTextarea1" class="form-label">Full Details</label>
-                                                       <textarea class="form-control" id="summernote1" value="'.$row['details'].'" name="details" rows="3"></textarea>
-                                                       </div>
-                                                       <div class="mb-3">
-                                                       <label for="exampleFormControlTextarea1" class="form-label">Image</label>
-                                                       <input type="file" name="image" id="image" class="form-control" id="exampleFormControlTextarea1" >
+                                                       <div class="mb-3 form-group">
+                                                       <label for="" class="">Image</label>
+                                                       <input type="file" name="image" id="image" class="form-control" id="" >
+                                                       <br/>
+                                                       <p>Current Image</p>
+                                                       <img class="img-fluid" src="../images/gallery/'.$row['gallery'].'" alt="" width="" height="">
                                                        </div>
                                                
                                                </div>
                                                <div class="modal-footer">
                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                   <button type="submit" name="edit_project_btn" class="btn btn-primary">Save</button>
+                                                   <button type="submit" name="edit_gallery_btn" class="btn btn-primary">Save</button>
                                                </div>
                                            </form>
                                            </div>
@@ -271,12 +266,11 @@ include("../partials/particulars.php");
                                        <div class="modal-dialog modal-dialog-centered">
                                            <div class="modal-content">
                                            <div class="modal-header">
-                                               <h5 class="modal-title" id="staticBackdropLabel">Delete Project</h5>
+                                               <h5 class="modal-title" id="staticBackdropLabel">Delete Gallery</h5>
                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                            </div>
-                                           <form action="backend/projects.php" method="post" enctype="multipart/form-data">
+                                           <form action="backend/gallery.php" method="post" enctype="multipart/form-data">
                                                <div class="modal-body">
-                                               
                                                        <div class="mb-3">
                                                        <label for="exampleFormControlInput1" class="form-label text-danger">Do you want to delete ?</label>
                                                        <input required value="' . $row['gallery_id'] . '" type="hidden" name="id" class="form-control" id="id" >
@@ -318,7 +312,7 @@ include("../partials/particulars.php");
                     <div class="modal-body">
                             <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Select Project</label>
-                            <select required onchange="getSubProject(this.value)" type="text" name="main_project" class="form-control" id="main_project" >
+                            <select required onchange="getSubProject(this.value)" type="text" name="project" class="form-control" id="project" >
                                 <option value=""></option>
                                 <?php 
                                 $sql = "SELECT * FROM projects";

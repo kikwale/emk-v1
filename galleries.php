@@ -1,3 +1,45 @@
+<style>
+div.gallery {
+  border: None;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+/* * {
+  box-sizing: border-box;
+} */
+
+.gallery_responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .gallery_responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .gallery_responsive {
+    width: 100%;
+  }
+}
+
+</style>
+
 <?php
 $title = "Pro-Mek-Engineering | Projects";
 include('partials/header.php');
@@ -59,20 +101,22 @@ include('db_connection.php');
                 $result = mysqli_query($conn, $sql);
                 if (mysqli_num_rows($result) > 0) {
                     while($row = mysqli_fetch_assoc($result)) {
-                        echo '<div class="col-md-3 col-lg-3 col-sm-3">';
-                        echo '<img class="img-fluid w-100 mb-2 mb-md-4 shadow-1-strong rounded" src="images/gallery/'.$row['gallery'].'" alt="">';
-                        echo '</div>';
+                        echo '<div class="gallery_responsive"><div class="gallery">';
+                        echo '
+                        <a target="_blank" href="images/gallery/'.$row['gallery'].'">
+                        <img class="img-fluid img-thumbnail" src="images/gallery/'.$row['gallery'].'" alt="Cinque Terre">
+                        </a>';
+                        echo ' </a></div></div>';
                 }
                 }
-
 
                 ?>
             
-        </div>
+</div>
 
 
 
-    </section>
+</section>
     <!--broken-section end-->
 
 <!-- </div>site-main end -->

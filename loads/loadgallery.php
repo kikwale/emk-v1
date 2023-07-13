@@ -6,9 +6,12 @@ if(!empty($_POST['id'])){
     $result = mysqli_query($conn, $sql);
     if (mysqli_num_rows($result) > 0) {
         while ($row = mysqli_fetch_assoc($result)) {
-            echo '<div class="col-md-3 col-lg-3 col-sm-3">';
-            echo '<img class="img-fluid w-100 shadow-1-strong rounded" src="images/gallery/'.$row['gallery'].'" alt="">';
-            echo '</div>';
+            echo '<div class="gallery_responsive"><div class="gallery">';
+            echo '
+            <a target="_blank" href="images/gallery/'.$row['gallery'].'">
+            <img class="img-fluid img-thumbnail" src="images/gallery/'.$row['gallery'].'" alt="Cinque Terre">
+            </a>';
+            echo ' </a></div></div>';
         }
     }
     else {
@@ -20,9 +23,12 @@ else {
     $result = mysqli_query($conn, $sql);
     if (mysqli_num_rows($result) > 0) {
         while ($row = mysqli_fetch_assoc($result)) {
-            echo '<div class="col-md-3 col-lg-3 col-sm-3">';
-            echo '<img class="img-fluid w-100 shadow-1-strong rounded" src="images/gallery/'.$row['gallery'].'" alt="">';
-            echo '</div>';
+            echo '<div class="gallery_responsive"><div class="gallery">';
+            echo '
+            <a target="_blank" href="images/gallery/'.$row['gallery'].'">
+            <img class="img-fluid img-thumbnail" src="images/gallery/'.$row['gallery'].'" alt="Cinque Terre">
+            </a>';
+            echo ' </a></div></div>';
         }
     }
 }
