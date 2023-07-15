@@ -22,7 +22,7 @@
                         data-frames='[{"delay":1750,"speed":2500,"frame":"0","from":"x:150px;z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:1500;e:inherit;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":1500,"frame":"999","to":"opacity:0;","ease":"Linear.easeNone"}]'
                         data-responsive_offset="on">
 
-                        <img src="images/slides/slider-001.png" alt="" width="952" height="599" data-ww="['952px','952px','552px','262px']" data-hh="['599px','599px','300px','286px']" data-no-retina>
+                        <!-- <img src="images/slides/slider-001.png" alt="" width="952" height="599" data-ww="['952px','952px','552px','262px']" data-hh="['599px','599px','300px','286px']" data-no-retina> -->
                         </div>
 
                         <!-- LAYER NR. 2 -->
@@ -69,7 +69,7 @@
                         data-paddingtop="[0,0,0,0]"
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]" > WELCOME TO <b>EMK</b> 
+                        data-paddingleft="[0,0,0,0]" > WELCOME TO <b>Pro-Mek-Engineering</b> 
                         </div>
 
                         <!-- LAYER NR. 4 -->
@@ -214,7 +214,7 @@
                         data-start="800" 
                         data-responsive_offset="on">
 
-                        <img src="images/slides/icon-block-img.png" alt="" data-no-retina >
+                        <!-- <img src="images/slides/icon-block-img.png" alt="" data-no-retina > -->
                         </div>
 
                         <!-- LAYER NR. 2 -->

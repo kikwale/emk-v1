@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -62,7 +62,8 @@
                         ?>
                         <div class="d-flex align-items-center justify-content-between mb-3">
 
-                            <h3 class="text-warning">Pro-Mek-Engineering</h3>
+                            <!-- <h3 class="text-warning">Pro-Mek-Engineering</h3> -->
+                            <img src="../images/logo-img.png" alt="" class="img-responsive" style="margin:0 auto">
                             <!-- <h3>Sign In</h3> -->
                         </div>
 

@@ -1,5 +1,6 @@
 
-<?php 
+<?php
+session_start(); 
 include('db_connection.php');
 include("../partials/particulars.php");
 ?>
@@ -14,7 +15,7 @@ include("../partials/particulars.php");
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -202,7 +203,7 @@ include("../partials/particulars.php");
                             <thead>
                                 <tr class="text-dark">
                                     <th scope="col"><input class="form-check-input" type="checkbox"></th>
-                                    <th scope="col">name</th>
+                                    <th scope="col">Category Name</th>
                                     <th scope="col">Category Type</th>
                                     <th scope="col">Action</th>
                                 </tr>
@@ -219,7 +220,6 @@ include("../partials/particulars.php");
                                        <td><input class="form-check-input" type="checkbox"></td>
                                        <td>'.$row['name'].'</td>
                                        <td>Main Category</td>
-                                       <td>
                                        <td>
                                        <a class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#edit_service' . $row['id'] . '" href="#"><i class="fa fa-edit"></i></a>
                                        <a class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#delete_service' . $row['id'] . '" href="#"><i class="fa fa-trash"></i></a>

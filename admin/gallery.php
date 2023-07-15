@@ -1,5 +1,6 @@
 
 <?php 
+session_start();
 include('db_connection.php');
 include("../partials/particulars.php");
 ?>
@@ -14,7 +15,7 @@ include("../partials/particulars.php");
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

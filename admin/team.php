@@ -1,5 +1,6 @@
 
-<?php 
+<?php
+session_start();
 include('db_connection.php');
 include("../partials/particulars.php");
 ?>
@@ -14,7 +15,7 @@ include("../partials/particulars.php");
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -172,7 +173,7 @@ include("../partials/particulars.php");
                                     <th scope="col"><input class="form-check-input" type="checkbox"></th>
                                     <!-- <th scope="col">Photo</th> -->
                                     <th scope="col"> Name</th>
-                                    <th scope="col">Description</th>
+                                    <th scope="col">Title</th>
                                    
                                     <th scope="col">Action</th>
                                 </tr>

@@ -1,5 +1,6 @@
 
-<?php 
+<?php
+session_start();
 include('db_connection.php');
 include("../partials/particulars.php");
 ?>
@@ -14,7 +15,7 @@ include("../partials/particulars.php");
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,53 +67,6 @@ include("../partials/particulars.php");
             <!-- Navbar Start -->
 
             <?php include('nav/header.php'); ?>
-          
-            <!-- Navbar End -->
-
-
-            <!-- Sale & Revenue Start -->
-            <!-- <div class="container-fluid pt-4 px-4">
-                <div class="row g-4">
-                    <div class="col-sm-6 col-xl-3">
-                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-line fa-3x text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Today Sale</p>
-                                <h6 class="mb-0">$1234</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xl-3">
-                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-bar fa-3x text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Total Sale</p>
-                                <h6 class="mb-0">$1234</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xl-3">
-                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-area fa-3x text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Today Revenue</p>
-                                <h6 class="mb-0">$1234</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xl-3">
-                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-pie fa-3x text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Total Revenue</p>
-                                <h6 class="mb-0">$1234</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- Sale & Revenue End -->
-
 
             <div class="container-fluid pt-4 px-4">
             <div class="row g-4">
@@ -165,14 +119,14 @@ include("../partials/particulars.php");
                 <div class="bg-light text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
                         <h6 class="mb-0">Project Sub Category</h6>
-                        <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#service_modal"><i class="fa fa-plus"></i> New Category</a>
+                        <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#service_modal"><i class="fa fa-plus"></i>New Sub Category</a>
                     </div>
                     <div class="table-responsive">
                         <table id="dataTables-example" class="table text-start align-middle table-bordered table-hover mb-0">
                             <thead>
                                 <tr class="text-dark">
                                     <th scope="col"><input class="form-check-input" type="checkbox"></th>
-                                    <th scope="col">name</th>
+                                    <th scope="col">Sub category</th>
                                     <th scope="col">Category Type</th>
                                     <th scope="col">Action</th>
                                 </tr>

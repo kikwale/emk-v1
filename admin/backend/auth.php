@@ -15,7 +15,8 @@ if (isset($_POST['auth'])) {
     if (mysqli_num_rows($result) > 0) {
         if($row = mysqli_fetch_assoc($result)) {
           
-          $_SESSION['name'] = $row['fullName'];
+          $_SESSION['userName'] = $row['fullName'];
+          $_SESSION['userId'] = $row['id'];
           header('location: ../home.php');
           }
     } else {

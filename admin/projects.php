@@ -1,5 +1,6 @@
 
-<?php 
+<?php
+session_start();
 include('db_connection.php');
 include("../partials/particulars.php");
 ?>
@@ -14,7 +15,7 @@ include("../partials/particulars.php");
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -194,7 +195,7 @@ include("../partials/particulars.php");
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-light text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
-                        <h6 class="mb-0">Services</h6>
+                        <h6 class="mb-0">Projects</h6>
                         <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#service_modal"><i class="fa fa-plus"></i> New Project</a>
                     </div>
                     <div class="table-responsive">
