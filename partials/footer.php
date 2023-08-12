@@ -54,8 +54,8 @@
                         <h3 class="widget-title">Get In Touch</h3>
                         <ul class="">
                             <li><i class="fa fa-map-marker"></i><?php echo $address; ?></li>
-                            <li><i class="fa fa-envelope-o"></i>Email : <a href="mail to:<?php echo $email; ?>"><?php echo $email; ?></a></li>
-                            <li><i class="fa fa-phone"></i>Phone : <?php echo $mobile; ?><br>Whatsapp : <?php echo $whatsapp; ?></li>
+                            <li><i class="fa fa-envelope-o"></i>Email : <a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a></li>
+                            <li><i class="fa fa-phone"></i>Phone : <a href="tel:+255768061488"><?php echo $mobile; ?></a><br>Whatsapp me: <a href="https://wa.me/+966572381809"><?php echo $whatsapp; ?></a></li>
                         </ul>
                     </div>
                 </div>
